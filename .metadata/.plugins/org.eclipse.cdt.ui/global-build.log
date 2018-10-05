@@ -1,0 +1,844 @@
+
+**** Build of configuration Debug for project freertos_builds_MSP_EXP432P401R_release_gcc ****
+
+/Users/makiah/ti/ccsv7/utils/bin/gmake -k -j 7 all -O 
+ 
+Building file: "/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/kernel/freertos/dpl/DebugP_freertos.c"
+Invoking: GNU Compiler
+"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/arm-none-eabi-gcc" -c -mcpu=cortex-m4 -march=armv7e-m -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DDeviceFamily_MSP432P401x -D__MSP432P401R__ -I"/Users/makiah/Desktop/Karman/workspace/freertos_builds_MSP_EXP432P401R_release_gcc" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/include" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/portable/GCC/ARM_CM4F" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/gcc" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/third_party/CMSIS/Include" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include/newlib-nano" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall --specs=nano.specs -MMD -MP -MF"dpl/DebugP_freertos.d" -MT"dpl/DebugP_freertos.o"  -o"dpl/DebugP_freertos.o" "/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/kernel/freertos/dpl/DebugP_freertos.c"
+Finished building: "/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/kernel/freertos/dpl/DebugP_freertos.c"
+ 
+Building file: "/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/kernel/freertos/dpl/SemaphoreP_freertos.c"
+Invoking: GNU Compiler
+"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/arm-none-eabi-gcc" -c -mcpu=cortex-m4 -march=armv7e-m -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DDeviceFamily_MSP432P401x -D__MSP432P401R__ -I"/Users/makiah/Desktop/Karman/workspace/freertos_builds_MSP_EXP432P401R_release_gcc" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/include" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/portable/GCC/ARM_CM4F" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/gcc" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/third_party/CMSIS/Include" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include/newlib-nano" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall --specs=nano.specs -MMD -MP -MF"dpl/SemaphoreP_freertos.d" -MT"dpl/SemaphoreP_freertos.o"  -o"dpl/SemaphoreP_freertos.o" "/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/kernel/freertos/dpl/SemaphoreP_freertos.c"
+Finished building: "/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/kernel/freertos/dpl/SemaphoreP_freertos.c"
+ 
+Building file: "/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/kernel/freertos/dpl/PowerMSP432_freertos.c"
+Invoking: GNU Compiler
+"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/arm-none-eabi-gcc" -c -mcpu=cortex-m4 -march=armv7e-m -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DDeviceFamily_MSP432P401x -D__MSP432P401R__ -I"/Users/makiah/Desktop/Karman/workspace/freertos_builds_MSP_EXP432P401R_release_gcc" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/include" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/portable/GCC/ARM_CM4F" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/gcc" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/third_party/CMSIS/Include" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include/newlib-nano" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall --specs=nano.specs -MMD -MP -MF"dpl/PowerMSP432_freertos.d" -MT"dpl/PowerMSP432_freertos.o"  -o"dpl/PowerMSP432_freertos.o" "/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/kernel/freertos/dpl/PowerMSP432_freertos.c"
+Finished building: "/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/kernel/freertos/dpl/PowerMSP432_freertos.c"
+ 
+Building file: "/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/kernel/freertos/dpl/SystemP_freertos.c"
+Invoking: GNU Compiler
+"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/arm-none-eabi-gcc" -c -mcpu=cortex-m4 -march=armv7e-m -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DDeviceFamily_MSP432P401x -D__MSP432P401R__ -I"/Users/makiah/Desktop/Karman/workspace/freertos_builds_MSP_EXP432P401R_release_gcc" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/include" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/portable/GCC/ARM_CM4F" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/gcc" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/third_party/CMSIS/Include" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include/newlib-nano" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall --specs=nano.specs -MMD -MP -MF"dpl/SystemP_freertos.d" -MT"dpl/SystemP_freertos.o"  -o"dpl/SystemP_freertos.o" "/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/kernel/freertos/dpl/SystemP_freertos.c"
+Finished building: "/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/kernel/freertos/dpl/SystemP_freertos.c"
+ 
+Building file: "/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/kernel/freertos/dpl/MutexP_freertos.c"
+Invoking: GNU Compiler
+"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/arm-none-eabi-gcc" -c -mcpu=cortex-m4 -march=armv7e-m -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DDeviceFamily_MSP432P401x -D__MSP432P401R__ -I"/Users/makiah/Desktop/Karman/workspace/freertos_builds_MSP_EXP432P401R_release_gcc" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/include" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/portable/GCC/ARM_CM4F" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/gcc" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/third_party/CMSIS/Include" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include/newlib-nano" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall --specs=nano.specs -MMD -MP -MF"dpl/MutexP_freertos.d" -MT"dpl/MutexP_freertos.o"  -o"dpl/MutexP_freertos.o" "/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/kernel/freertos/dpl/MutexP_freertos.c"
+Finished building: "/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/kernel/freertos/dpl/MutexP_freertos.c"
+ 
+Building file: "/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/kernel/freertos/dpl/ClockP_freertos.c"
+Invoking: GNU Compiler
+"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/arm-none-eabi-gcc" -c -mcpu=cortex-m4 -march=armv7e-m -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DDeviceFamily_MSP432P401x -D__MSP432P401R__ -I"/Users/makiah/Desktop/Karman/workspace/freertos_builds_MSP_EXP432P401R_release_gcc" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/include" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/portable/GCC/ARM_CM4F" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/gcc" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/third_party/CMSIS/Include" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include/newlib-nano" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall --specs=nano.specs -MMD -MP -MF"dpl/ClockP_freertos.d" -MT"dpl/ClockP_freertos.o"  -o"dpl/ClockP_freertos.o" "/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/kernel/freertos/dpl/ClockP_freertos.c"
+Finished building: "/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/kernel/freertos/dpl/ClockP_freertos.c"
+ 
+Building file: "/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/kernel/freertos/dpl/HwiPMSP432_freertos.c"
+Invoking: GNU Compiler
+"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/arm-none-eabi-gcc" -c -mcpu=cortex-m4 -march=armv7e-m -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DDeviceFamily_MSP432P401x -D__MSP432P401R__ -I"/Users/makiah/Desktop/Karman/workspace/freertos_builds_MSP_EXP432P401R_release_gcc" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/include" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/portable/GCC/ARM_CM4F" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/gcc" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/third_party/CMSIS/Include" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include/newlib-nano" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall --specs=nano.specs -MMD -MP -MF"dpl/HwiPMSP432_freertos.d" -MT"dpl/HwiPMSP432_freertos.o"  -o"dpl/HwiPMSP432_freertos.o" "/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/kernel/freertos/dpl/HwiPMSP432_freertos.c"
+Finished building: "/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/kernel/freertos/dpl/HwiPMSP432_freertos.c"
+ 
+Building file: "/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/croutine.c"
+Invoking: GNU Compiler
+"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/arm-none-eabi-gcc" -c -mcpu=cortex-m4 -march=armv7e-m -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DDeviceFamily_MSP432P401x -D__MSP432P401R__ -I"/Users/makiah/Desktop/Karman/workspace/freertos_builds_MSP_EXP432P401R_release_gcc" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/include" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/portable/GCC/ARM_CM4F" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/gcc" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/third_party/CMSIS/Include" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include/newlib-nano" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall --specs=nano.specs -MMD -MP -MF"freertos/croutine.d" -MT"freertos/croutine.o"  -o"freertos/croutine.o" "/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/croutine.c"
+Finished building: "/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/croutine.c"
+ 
+Building file: "/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/list.c"
+Invoking: GNU Compiler
+"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/arm-none-eabi-gcc" -c -mcpu=cortex-m4 -march=armv7e-m -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DDeviceFamily_MSP432P401x -D__MSP432P401R__ -I"/Users/makiah/Desktop/Karman/workspace/freertos_builds_MSP_EXP432P401R_release_gcc" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/include" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/portable/GCC/ARM_CM4F" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/gcc" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/third_party/CMSIS/Include" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include/newlib-nano" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall --specs=nano.specs -MMD -MP -MF"freertos/list.d" -MT"freertos/list.o"  -o"freertos/list.o" "/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/list.c"
+Finished building: "/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/list.c"
+ 
+Building file: "/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/portable/MemMang/heap_4.c"
+Invoking: GNU Compiler
+"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/arm-none-eabi-gcc" -c -mcpu=cortex-m4 -march=armv7e-m -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DDeviceFamily_MSP432P401x -D__MSP432P401R__ -I"/Users/makiah/Desktop/Karman/workspace/freertos_builds_MSP_EXP432P401R_release_gcc" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/include" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/portable/GCC/ARM_CM4F" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/gcc" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/third_party/CMSIS/Include" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include/newlib-nano" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall --specs=nano.specs -MMD -MP -MF"freertos/heap_4.d" -MT"freertos/heap_4.o"  -o"freertos/heap_4.o" "/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/portable/MemMang/heap_4.c"
+Finished building: "/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/portable/MemMang/heap_4.c"
+ 
+Building file: "/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/event_groups.c"
+Invoking: GNU Compiler
+"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/arm-none-eabi-gcc" -c -mcpu=cortex-m4 -march=armv7e-m -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DDeviceFamily_MSP432P401x -D__MSP432P401R__ -I"/Users/makiah/Desktop/Karman/workspace/freertos_builds_MSP_EXP432P401R_release_gcc" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/include" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/portable/GCC/ARM_CM4F" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/gcc" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/third_party/CMSIS/Include" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include/newlib-nano" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall --specs=nano.specs -MMD -MP -MF"freertos/event_groups.d" -MT"freertos/event_groups.o"  -o"freertos/event_groups.o" "/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/event_groups.c"
+Finished building: "/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/event_groups.c"
+ 
+Building file: "/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/timers.c"
+Invoking: GNU Compiler
+"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/arm-none-eabi-gcc" -c -mcpu=cortex-m4 -march=armv7e-m -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DDeviceFamily_MSP432P401x -D__MSP432P401R__ -I"/Users/makiah/Desktop/Karman/workspace/freertos_builds_MSP_EXP432P401R_release_gcc" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/include" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/portable/GCC/ARM_CM4F" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/gcc" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/third_party/CMSIS/Include" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include/newlib-nano" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall --specs=nano.specs -MMD -MP -MF"freertos/timers.d" -MT"freertos/timers.o"  -o"freertos/timers.o" "/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/timers.c"
+Finished building: "/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/timers.c"
+ 
+Building file: "/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c"
+Invoking: GNU Compiler
+"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/arm-none-eabi-gcc" -c -mcpu=cortex-m4 -march=armv7e-m -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DDeviceFamily_MSP432P401x -D__MSP432P401R__ -I"/Users/makiah/Desktop/Karman/workspace/freertos_builds_MSP_EXP432P401R_release_gcc" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/include" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/portable/GCC/ARM_CM4F" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/gcc" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/third_party/CMSIS/Include" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include/newlib-nano" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall --specs=nano.specs -MMD -MP -MF"freertos/portable/GCC/ARM_CM4F/port.d" -MT"freertos/portable/GCC/ARM_CM4F/port.o"  -o"freertos/portable/GCC/ARM_CM4F/port.o" "/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c"
+Finished building: "/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c"
+ 
+Building file: "/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/kernel/freertos/startup/startup_msp432_gcc.c"
+Invoking: GNU Compiler
+"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/arm-none-eabi-gcc" -c -mcpu=cortex-m4 -march=armv7e-m -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DDeviceFamily_MSP432P401x -D__MSP432P401R__ -I"/Users/makiah/Desktop/Karman/workspace/freertos_builds_MSP_EXP432P401R_release_gcc" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/include" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/portable/GCC/ARM_CM4F" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/gcc" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/third_party/CMSIS/Include" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include/newlib-nano" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall --specs=nano.specs -MMD -MP -MF"freertos/startup/startup_msp432_gcc.d" -MT"freertos/startup/startup_msp432_gcc.o"  -o"freertos/startup/startup_msp432_gcc.o" "/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/kernel/freertos/startup/startup_msp432_gcc.c"
+Finished building: "/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/kernel/freertos/startup/startup_msp432_gcc.c"
+ 
+Building file: "/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/queue.c"
+Invoking: GNU Compiler
+"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/arm-none-eabi-gcc" -c -mcpu=cortex-m4 -march=armv7e-m -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DDeviceFamily_MSP432P401x -D__MSP432P401R__ -I"/Users/makiah/Desktop/Karman/workspace/freertos_builds_MSP_EXP432P401R_release_gcc" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/include" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/portable/GCC/ARM_CM4F" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/gcc" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/third_party/CMSIS/Include" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include/newlib-nano" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall --specs=nano.specs -MMD -MP -MF"freertos/queue.d" -MT"freertos/queue.o"  -o"freertos/queue.o" "/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/queue.c"
+Finished building: "/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/queue.c"
+ 
+Building file: "/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/freertos/memory.c"
+Invoking: GNU Compiler
+"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/arm-none-eabi-gcc" -c -mcpu=cortex-m4 -march=armv7e-m -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DDeviceFamily_MSP432P401x -D__MSP432P401R__ -I"/Users/makiah/Desktop/Karman/workspace/freertos_builds_MSP_EXP432P401R_release_gcc" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/include" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/portable/GCC/ARM_CM4F" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/gcc" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/third_party/CMSIS/Include" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include/newlib-nano" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall --specs=nano.specs -MMD -MP -MF"posix/memory.d" -MT"posix/memory.o"  -o"posix/memory.o" "/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/freertos/memory.c"
+Finished building: "/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/freertos/memory.c"
+ 
+Building file: "/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/freertos/clock.c"
+Invoking: GNU Compiler
+"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/arm-none-eabi-gcc" -c -mcpu=cortex-m4 -march=armv7e-m -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DDeviceFamily_MSP432P401x -D__MSP432P401R__ -I"/Users/makiah/Desktop/Karman/workspace/freertos_builds_MSP_EXP432P401R_release_gcc" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/include" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/portable/GCC/ARM_CM4F" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/gcc" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/third_party/CMSIS/Include" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include/newlib-nano" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall --specs=nano.specs -MMD -MP -MF"posix/clock.d" -MT"posix/clock.o"  -o"posix/clock.o" "/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/freertos/clock.c"
+Finished building: "/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/freertos/clock.c"
+ 
+Building file: "/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/freertos/mqueue.c"
+Invoking: GNU Compiler
+"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/arm-none-eabi-gcc" -c -mcpu=cortex-m4 -march=armv7e-m -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DDeviceFamily_MSP432P401x -D__MSP432P401R__ -I"/Users/makiah/Desktop/Karman/workspace/freertos_builds_MSP_EXP432P401R_release_gcc" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/include" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/portable/GCC/ARM_CM4F" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/gcc" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/third_party/CMSIS/Include" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include/newlib-nano" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall --specs=nano.specs -MMD -MP -MF"posix/mqueue.d" -MT"posix/mqueue.o"  -o"posix/mqueue.o" "/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/freertos/mqueue.c"
+Finished building: "/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/freertos/mqueue.c"
+ 
+Building file: "/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/freertos/pthread_barrier.c"
+Invoking: GNU Compiler
+"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/arm-none-eabi-gcc" -c -mcpu=cortex-m4 -march=armv7e-m -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DDeviceFamily_MSP432P401x -D__MSP432P401R__ -I"/Users/makiah/Desktop/Karman/workspace/freertos_builds_MSP_EXP432P401R_release_gcc" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/include" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/portable/GCC/ARM_CM4F" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/gcc" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/third_party/CMSIS/Include" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include/newlib-nano" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall --specs=nano.specs -MMD -MP -MF"posix/pthread_barrier.d" -MT"posix/pthread_barrier.o"  -o"posix/pthread_barrier.o" "/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/freertos/pthread_barrier.c"
+Finished building: "/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/freertos/pthread_barrier.c"
+ 
+Building file: "/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/freertos/pthread_cond.c"
+Invoking: GNU Compiler
+"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/arm-none-eabi-gcc" -c -mcpu=cortex-m4 -march=armv7e-m -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DDeviceFamily_MSP432P401x -D__MSP432P401R__ -I"/Users/makiah/Desktop/Karman/workspace/freertos_builds_MSP_EXP432P401R_release_gcc" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/include" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/portable/GCC/ARM_CM4F" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/gcc" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/third_party/CMSIS/Include" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include/newlib-nano" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall --specs=nano.specs -MMD -MP -MF"posix/pthread_cond.d" -MT"posix/pthread_cond.o"  -o"posix/pthread_cond.o" "/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/freertos/pthread_cond.c"
+Finished building: "/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/freertos/pthread_cond.c"
+ 
+Building file: "/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/freertos/pthread_mutex.c"
+Invoking: GNU Compiler
+"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/arm-none-eabi-gcc" -c -mcpu=cortex-m4 -march=armv7e-m -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DDeviceFamily_MSP432P401x -D__MSP432P401R__ -I"/Users/makiah/Desktop/Karman/workspace/freertos_builds_MSP_EXP432P401R_release_gcc" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/include" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/portable/GCC/ARM_CM4F" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/gcc" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/third_party/CMSIS/Include" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include/newlib-nano" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall --specs=nano.specs -MMD -MP -MF"posix/pthread_mutex.d" -MT"posix/pthread_mutex.o"  -o"posix/pthread_mutex.o" "/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/freertos/pthread_mutex.c"
+Finished building: "/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/freertos/pthread_mutex.c"
+ 
+Building file: "/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/freertos/pthread_rwlock.c"
+Invoking: GNU Compiler
+"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/arm-none-eabi-gcc" -c -mcpu=cortex-m4 -march=armv7e-m -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DDeviceFamily_MSP432P401x -D__MSP432P401R__ -I"/Users/makiah/Desktop/Karman/workspace/freertos_builds_MSP_EXP432P401R_release_gcc" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/include" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/portable/GCC/ARM_CM4F" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/gcc" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/third_party/CMSIS/Include" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include/newlib-nano" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall --specs=nano.specs -MMD -MP -MF"posix/pthread_rwlock.d" -MT"posix/pthread_rwlock.o"  -o"posix/pthread_rwlock.o" "/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/freertos/pthread_rwlock.c"
+Finished building: "/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/freertos/pthread_rwlock.c"
+ 
+Building file: "/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/tasks.c"
+Invoking: GNU Compiler
+"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/arm-none-eabi-gcc" -c -mcpu=cortex-m4 -march=armv7e-m -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DDeviceFamily_MSP432P401x -D__MSP432P401R__ -I"/Users/makiah/Desktop/Karman/workspace/freertos_builds_MSP_EXP432P401R_release_gcc" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/include" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/portable/GCC/ARM_CM4F" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/gcc" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/third_party/CMSIS/Include" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include/newlib-nano" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall --specs=nano.specs -MMD -MP -MF"freertos/tasks.d" -MT"freertos/tasks.o"  -o"freertos/tasks.o" "/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/tasks.c"
+Finished building: "/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/tasks.c"
+ 
+Building file: "/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/freertos/pthread.c"
+Invoking: GNU Compiler
+"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/arm-none-eabi-gcc" -c -mcpu=cortex-m4 -march=armv7e-m -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DDeviceFamily_MSP432P401x -D__MSP432P401R__ -I"/Users/makiah/Desktop/Karman/workspace/freertos_builds_MSP_EXP432P401R_release_gcc" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/include" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/portable/GCC/ARM_CM4F" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/gcc" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/third_party/CMSIS/Include" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include/newlib-nano" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall --specs=nano.specs -MMD -MP -MF"posix/pthread.d" -MT"posix/pthread.o"  -o"posix/pthread.o" "/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/freertos/pthread.c"
+Finished building: "/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/freertos/pthread.c"
+ 
+Building file: "/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/freertos/sched.c"
+Invoking: GNU Compiler
+"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/arm-none-eabi-gcc" -c -mcpu=cortex-m4 -march=armv7e-m -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DDeviceFamily_MSP432P401x -D__MSP432P401R__ -I"/Users/makiah/Desktop/Karman/workspace/freertos_builds_MSP_EXP432P401R_release_gcc" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/include" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/portable/GCC/ARM_CM4F" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/gcc" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/third_party/CMSIS/Include" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include/newlib-nano" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall --specs=nano.specs -MMD -MP -MF"posix/sched.d" -MT"posix/sched.o"  -o"posix/sched.o" "/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/freertos/sched.c"
+Finished building: "/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/freertos/sched.c"
+ 
+Building file: "/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/freertos/sleep.c"
+Invoking: GNU Compiler
+"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/arm-none-eabi-gcc" -c -mcpu=cortex-m4 -march=armv7e-m -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DDeviceFamily_MSP432P401x -D__MSP432P401R__ -I"/Users/makiah/Desktop/Karman/workspace/freertos_builds_MSP_EXP432P401R_release_gcc" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/include" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/portable/GCC/ARM_CM4F" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/gcc" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/third_party/CMSIS/Include" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include/newlib-nano" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall --specs=nano.specs -MMD -MP -MF"posix/sleep.d" -MT"posix/sleep.o"  -o"posix/sleep.o" "/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/freertos/sleep.c"
+Finished building: "/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/freertos/sleep.c"
+ 
+Building file: "/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/freertos/semaphore.c"
+Invoking: GNU Compiler
+"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/arm-none-eabi-gcc" -c -mcpu=cortex-m4 -march=armv7e-m -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DDeviceFamily_MSP432P401x -D__MSP432P401R__ -I"/Users/makiah/Desktop/Karman/workspace/freertos_builds_MSP_EXP432P401R_release_gcc" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/include" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/portable/GCC/ARM_CM4F" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/gcc" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/third_party/CMSIS/Include" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include/newlib-nano" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall --specs=nano.specs -MMD -MP -MF"posix/semaphore.d" -MT"posix/semaphore.o"  -o"posix/semaphore.o" "/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/freertos/semaphore.c"
+Finished building: "/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/freertos/semaphore.c"
+ 
+Building file: "/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/freertos/timer.c"
+Invoking: GNU Compiler
+"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/arm-none-eabi-gcc" -c -mcpu=cortex-m4 -march=armv7e-m -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DDeviceFamily_MSP432P401x -D__MSP432P401R__ -I"/Users/makiah/Desktop/Karman/workspace/freertos_builds_MSP_EXP432P401R_release_gcc" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/include" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/portable/GCC/ARM_CM4F" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/gcc" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/third_party/CMSIS/Include" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include/newlib-nano" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall --specs=nano.specs -MMD -MP -MF"posix/timer.d" -MT"posix/timer.o"  -o"posix/timer.o" "/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/freertos/timer.c"
+Finished building: "/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/freertos/timer.c"
+ 
+Building target: "libfreertos_builds_MSP_EXP432P401R_release_gcc.a"
+Invoking: GNU Librarian
+"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/arm-none-eabi-ar" -r "libfreertos_builds_MSP_EXP432P401R_release_gcc.a" "./dpl/ClockP_freertos.o" "./dpl/DebugP_freertos.o" "./dpl/HwiPMSP432_freertos.o" "./dpl/MutexP_freertos.o" "./dpl/PowerMSP432_freertos.o" "./dpl/SemaphoreP_freertos.o" "./dpl/SystemP_freertos.o" "./freertos/croutine.o" "./freertos/event_groups.o" "./freertos/heap_4.o" "./freertos/list.o" "./freertos/queue.o" "./freertos/tasks.o" "./freertos/timers.o" "./freertos/portable/GCC/ARM_CM4F/port.o" "./freertos/startup/startup_msp432_gcc.o" "./posix/clock.o" "./posix/memory.o" "./posix/mqueue.o" "./posix/pthread.o" "./posix/pthread_barrier.o" "./posix/pthread_cond.o" "./posix/pthread_mutex.o" "./posix/pthread_rwlock.o" "./posix/sched.o" "./posix/semaphore.o" "./posix/sleep.o" "./posix/timer.o" 
+/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/arm-none-eabi-ar: creating libfreertos_builds_MSP_EXP432P401R_release_gcc.a
+Finished building target: "libfreertos_builds_MSP_EXP432P401R_release_gcc.a"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project freertos_builds_MSP_EXP432P401R_release_gcc ****
+
+/Users/makiah/ti/ccsv7/utils/bin/gmake -k -j 7 all -O 
+ 
+gmake: Nothing to be done for 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project karman-application ****
+
+/Users/makiah/ti/ccsv7/utils/bin/gmake -k -j 7 all -O 
+ 
+Building file: "../src/appGlobals.c"
+Invoking: GNU Compiler
+"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/arm-none-eabi-gcc" -c -mcpu=cortex-m4 -march=armv7e-m -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DDeviceFamily_MSP432P401x -D__MSP432P401R__ -I"/Users/makiah/Desktop/Karman/workspace/karman-application" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/third_party/CMSIS/Include" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/gcc" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/include" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/portable/GCC/ARM_CM4F" -I"/Users/makiah/Desktop/Karman/workspace/freertos_builds_MSP_EXP432P401R_release_gcc" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include/newlib-nano" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc/common" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc/flight" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc/pyro" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc/radio" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors" -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall -MMD -MP -MF"src/appGlobals.d" -MT"src/appGlobals.o"  -o"src/appGlobals.o" "../src/appGlobals.c"
+Finished building: "../src/appGlobals.c"
+ 
+Building file: "../src/main_freertos.c"
+Invoking: GNU Compiler
+"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/arm-none-eabi-gcc" -c -mcpu=cortex-m4 -march=armv7e-m -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DDeviceFamily_MSP432P401x -D__MSP432P401R__ -I"/Users/makiah/Desktop/Karman/workspace/karman-application" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/third_party/CMSIS/Include" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/gcc" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/include" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/portable/GCC/ARM_CM4F" -I"/Users/makiah/Desktop/Karman/workspace/freertos_builds_MSP_EXP432P401R_release_gcc" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include/newlib-nano" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc/common" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc/flight" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc/pyro" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc/radio" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors" -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall -MMD -MP -MF"src/main_freertos.d" -MT"src/main_freertos.o"  -o"src/main_freertos.o" "../src/main_freertos.c"
+Finished building: "../src/main_freertos.c"
+ 
+Building file: "../src/drivers/ms5607-02ba03.c"
+Invoking: GNU Compiler
+"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/arm-none-eabi-gcc" -c -mcpu=cortex-m4 -march=armv7e-m -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DDeviceFamily_MSP432P401x -D__MSP432P401R__ -I"/Users/makiah/Desktop/Karman/workspace/karman-application" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/third_party/CMSIS/Include" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/gcc" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/include" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/portable/GCC/ARM_CM4F" -I"/Users/makiah/Desktop/Karman/workspace/freertos_builds_MSP_EXP432P401R_release_gcc" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include/newlib-nano" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc/common" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc/flight" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc/pyro" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc/radio" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors" -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall -MMD -MP -MF"src/drivers/ms5607-02ba03.d" -MT"src/drivers/ms5607-02ba03.o"  -o"src/drivers/ms5607-02ba03.o" "../src/drivers/ms5607-02ba03.c"
+Finished building: "../src/drivers/ms5607-02ba03.c"
+ 
+Building file: "../src/appInit.c"
+Invoking: GNU Compiler
+"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/arm-none-eabi-gcc" -c -mcpu=cortex-m4 -march=armv7e-m -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DDeviceFamily_MSP432P401x -D__MSP432P401R__ -I"/Users/makiah/Desktop/Karman/workspace/karman-application" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/third_party/CMSIS/Include" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/gcc" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/include" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/portable/GCC/ARM_CM4F" -I"/Users/makiah/Desktop/Karman/workspace/freertos_builds_MSP_EXP432P401R_release_gcc" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include/newlib-nano" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc/common" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc/flight" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc/pyro" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc/radio" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors" -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall -MMD -MP -MF"src/appInit.d" -MT"src/appInit.o"  -o"src/appInit.o" "../src/appInit.c"
+Finished building: "../src/appInit.c"
+ 
+Building file: "../src/board/MSP_EXP432P401R.c"
+Invoking: GNU Compiler
+"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/arm-none-eabi-gcc" -c -mcpu=cortex-m4 -march=armv7e-m -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DDeviceFamily_MSP432P401x -D__MSP432P401R__ -I"/Users/makiah/Desktop/Karman/workspace/karman-application" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/third_party/CMSIS/Include" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/gcc" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/include" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/portable/GCC/ARM_CM4F" -I"/Users/makiah/Desktop/Karman/workspace/freertos_builds_MSP_EXP432P401R_release_gcc" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include/newlib-nano" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc/common" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc/flight" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc/pyro" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc/radio" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors" -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall -MMD -MP -MF"src/board/MSP_EXP432P401R.d" -MT"src/board/MSP_EXP432P401R.o"  -o"src/board/MSP_EXP432P401R.o" "../src/board/MSP_EXP432P401R.c"
+Finished building: "../src/board/MSP_EXP432P401R.c"
+ 
+Building file: "../src/tasks/IMUTask.cpp"
+Invoking: GNU Compiler
+"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/arm-none-eabi-gcc" -c -mcpu=cortex-m4 -march=armv7e-m -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DDeviceFamily_MSP432P401x -D__MSP432P401R__ -I"/Users/makiah/Desktop/Karman/workspace/karman-application" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/third_party/CMSIS/Include" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/gcc" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/include" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/portable/GCC/ARM_CM4F" -I"/Users/makiah/Desktop/Karman/workspace/freertos_builds_MSP_EXP432P401R_release_gcc" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include/newlib-nano" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc/common" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc/flight" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc/pyro" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc/radio" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors" -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall -MMD -MP -MF"src/tasks/IMUTask.d" -MT"src/tasks/IMUTask.o"  -o"src/tasks/IMUTask.o" "../src/tasks/IMUTask.cpp"
+Finished building: "../src/tasks/IMUTask.cpp"
+ 
+Building file: "../src/utils/debug_printf.c"
+Invoking: GNU Compiler
+"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/arm-none-eabi-gcc" -c -mcpu=cortex-m4 -march=armv7e-m -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DDeviceFamily_MSP432P401x -D__MSP432P401R__ -I"/Users/makiah/Desktop/Karman/workspace/karman-application" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/third_party/CMSIS/Include" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/gcc" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/include" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/portable/GCC/ARM_CM4F" -I"/Users/makiah/Desktop/Karman/workspace/freertos_builds_MSP_EXP432P401R_release_gcc" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include/newlib-nano" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc/common" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc/flight" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc/pyro" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc/radio" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors" -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall -MMD -MP -MF"src/utils/debug_printf.d" -MT"src/utils/debug_printf.o"  -o"src/utils/debug_printf.o" "../src/utils/debug_printf.c"
+Finished building: "../src/utils/debug_printf.c"
+ 
+Building file: "../src/utils/timeUtils.c"
+Invoking: GNU Compiler
+"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/arm-none-eabi-gcc" -c -mcpu=cortex-m4 -march=armv7e-m -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DDeviceFamily_MSP432P401x -D__MSP432P401R__ -I"/Users/makiah/Desktop/Karman/workspace/karman-application" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/third_party/CMSIS/Include" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/gcc" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/include" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/portable/GCC/ARM_CM4F" -I"/Users/makiah/Desktop/Karman/workspace/freertos_builds_MSP_EXP432P401R_release_gcc" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include/newlib-nano" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc/common" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc/flight" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc/pyro" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc/radio" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors" -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall -MMD -MP -MF"src/utils/timeUtils.d" -MT"src/utils/timeUtils.o"  -o"src/utils/timeUtils.o" "../src/utils/timeUtils.c"
+Finished building: "../src/utils/timeUtils.c"
+ 
+Building file: "../src/drivers/Adafruit_BNO055.cpp"
+Invoking: GNU Compiler
+"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/arm-none-eabi-gcc" -c -mcpu=cortex-m4 -march=armv7e-m -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DDeviceFamily_MSP432P401x -D__MSP432P401R__ -I"/Users/makiah/Desktop/Karman/workspace/karman-application" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/third_party/CMSIS/Include" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/gcc" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/include" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/portable/GCC/ARM_CM4F" -I"/Users/makiah/Desktop/Karman/workspace/freertos_builds_MSP_EXP432P401R_release_gcc" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include/newlib-nano" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc/common" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc/flight" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc/pyro" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc/radio" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors" -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall -MMD -MP -MF"src/drivers/Adafruit_BNO055.d" -MT"src/drivers/Adafruit_BNO055.o"  -o"src/drivers/Adafruit_BNO055.o" "../src/drivers/Adafruit_BNO055.cpp"
+Finished building: "../src/drivers/Adafruit_BNO055.cpp"
+ 
+Building file: "../src/tasks/appMain.c"
+Invoking: GNU Compiler
+"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/arm-none-eabi-gcc" -c -mcpu=cortex-m4 -march=armv7e-m -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DDeviceFamily_MSP432P401x -D__MSP432P401R__ -I"/Users/makiah/Desktop/Karman/workspace/karman-application" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/third_party/CMSIS/Include" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/gcc" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/include" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/portable/GCC/ARM_CM4F" -I"/Users/makiah/Desktop/Karman/workspace/freertos_builds_MSP_EXP432P401R_release_gcc" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include/newlib-nano" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc/common" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc/flight" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc/pyro" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc/radio" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors" -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall -MMD -MP -MF"src/tasks/appMain.d" -MT"src/tasks/appMain.o"  -o"src/tasks/appMain.o" "../src/tasks/appMain.c"
+Finished building: "../src/tasks/appMain.c"
+ 
+Building file: "../src/tasks/sensorTask.c"
+Invoking: GNU Compiler
+"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/arm-none-eabi-gcc" -c -mcpu=cortex-m4 -march=armv7e-m -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DDeviceFamily_MSP432P401x -D__MSP432P401R__ -I"/Users/makiah/Desktop/Karman/workspace/karman-application" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/third_party/CMSIS/Include" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/gcc" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/include" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/portable/GCC/ARM_CM4F" -I"/Users/makiah/Desktop/Karman/workspace/freertos_builds_MSP_EXP432P401R_release_gcc" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include/newlib-nano" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc/common" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc/flight" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc/pyro" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc/radio" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors" -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall -MMD -MP -MF"src/tasks/sensorTask.d" -MT"src/tasks/sensorTask.o"  -o"src/tasks/sensorTask.o" "../src/tasks/sensorTask.c"
+Finished building: "../src/tasks/sensorTask.c"
+ 
+Building target: "karman-application.out"
+Invoking: GNU Linker
+"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/arm-none-eabi-gcc" -DDeviceFamily_MSP432P401x -D__MSP432P401R__ -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall -march=armv7e-m -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -Wl,-Map,"karman-application.map" -nostartfiles -static -Wl,--gc-sections -L"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source" -L"/Users/makiah/Desktop/Karman/workspace/freertos_builds_MSP_EXP432P401R_release_gcc/Debug" -march=armv7e-m -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 --specs=nano.specs -o"karman-application.out" "./src/appGlobals.o" "./src/appInit.o" "./src/main_freertos.o" "./src/board/MSP_EXP432P401R.o" "./src/drivers/Adafruit_BNO055.o" "./src/drivers/ms5607-02ba03.o" "./src/tasks/IMUTask.o" "./src/tasks/appMain.o" "./src/tasks/sensorTask.o" "./src/utils/debug_printf.o" "./src/utils/timeUtils.o" -Wl,-T"../MSP_EXP432P401R_FREERTOS.lds"  -Wl,--start-group -lstdc++_nano -lc_nano -l":ti/display/lib/display.am4fg" -l":ti/drivers/lib/drivers_msp432p401x.am4fg" -l":third_party/fatfs/lib/fatfs.am4fg" -l:libfreertos_builds_MSP_EXP432P401R_release_gcc.a -l":ti/devices/msp432p4xx/driverlib/gcc/msp432p4xx_driverlib.a" -lgcc -lm -lnosys -Wl,--end-group 
+Finished building target: "karman-application.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project freertos_builds_MSP_EXP432P401R_release_gcc ****
+
+/Users/makiah/ti/ccsv7/utils/bin/gmake -k -j 7 all -O 
+ 
+Building file: "/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/kernel/freertos/dpl/DebugP_freertos.c"
+Invoking: GNU Compiler
+"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/arm-none-eabi-gcc" -c -mcpu=cortex-m4 -march=armv7e-m -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DDeviceFamily_MSP432P401x -D__MSP432P401R__ -I"/Users/makiah/Desktop/Karman/workspace/freertos_builds_MSP_EXP432P401R_release_gcc" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/include" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/portable/GCC/ARM_CM4F" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/gcc" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/third_party/CMSIS/Include" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include/newlib-nano" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall --specs=nano.specs -MMD -MP -MF"dpl/DebugP_freertos.d" -MT"dpl/DebugP_freertos.o"  -o"dpl/DebugP_freertos.o" "/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/kernel/freertos/dpl/DebugP_freertos.c"
+Finished building: "/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/kernel/freertos/dpl/DebugP_freertos.c"
+ 
+Building file: "/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/kernel/freertos/dpl/SemaphoreP_freertos.c"
+Invoking: GNU Compiler
+"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/arm-none-eabi-gcc" -c -mcpu=cortex-m4 -march=armv7e-m -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DDeviceFamily_MSP432P401x -D__MSP432P401R__ -I"/Users/makiah/Desktop/Karman/workspace/freertos_builds_MSP_EXP432P401R_release_gcc" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/include" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/portable/GCC/ARM_CM4F" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/gcc" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/third_party/CMSIS/Include" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include/newlib-nano" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall --specs=nano.specs -MMD -MP -MF"dpl/SemaphoreP_freertos.d" -MT"dpl/SemaphoreP_freertos.o"  -o"dpl/SemaphoreP_freertos.o" "/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/kernel/freertos/dpl/SemaphoreP_freertos.c"
+Finished building: "/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/kernel/freertos/dpl/SemaphoreP_freertos.c"
+ 
+Building file: "/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/kernel/freertos/dpl/PowerMSP432_freertos.c"
+Invoking: GNU Compiler
+"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/arm-none-eabi-gcc" -c -mcpu=cortex-m4 -march=armv7e-m -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DDeviceFamily_MSP432P401x -D__MSP432P401R__ -I"/Users/makiah/Desktop/Karman/workspace/freertos_builds_MSP_EXP432P401R_release_gcc" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/include" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/portable/GCC/ARM_CM4F" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/gcc" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/third_party/CMSIS/Include" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include/newlib-nano" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall --specs=nano.specs -MMD -MP -MF"dpl/PowerMSP432_freertos.d" -MT"dpl/PowerMSP432_freertos.o"  -o"dpl/PowerMSP432_freertos.o" "/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/kernel/freertos/dpl/PowerMSP432_freertos.c"
+Finished building: "/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/kernel/freertos/dpl/PowerMSP432_freertos.c"
+ 
+Building file: "/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/kernel/freertos/dpl/SystemP_freertos.c"
+Invoking: GNU Compiler
+"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/arm-none-eabi-gcc" -c -mcpu=cortex-m4 -march=armv7e-m -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DDeviceFamily_MSP432P401x -D__MSP432P401R__ -I"/Users/makiah/Desktop/Karman/workspace/freertos_builds_MSP_EXP432P401R_release_gcc" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/include" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/portable/GCC/ARM_CM4F" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/gcc" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/third_party/CMSIS/Include" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include/newlib-nano" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall --specs=nano.specs -MMD -MP -MF"dpl/SystemP_freertos.d" -MT"dpl/SystemP_freertos.o"  -o"dpl/SystemP_freertos.o" "/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/kernel/freertos/dpl/SystemP_freertos.c"
+Finished building: "/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/kernel/freertos/dpl/SystemP_freertos.c"
+ 
+Building file: "/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/kernel/freertos/dpl/MutexP_freertos.c"
+Invoking: GNU Compiler
+"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/arm-none-eabi-gcc" -c -mcpu=cortex-m4 -march=armv7e-m -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DDeviceFamily_MSP432P401x -D__MSP432P401R__ -I"/Users/makiah/Desktop/Karman/workspace/freertos_builds_MSP_EXP432P401R_release_gcc" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/include" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/portable/GCC/ARM_CM4F" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/gcc" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/third_party/CMSIS/Include" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include/newlib-nano" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall --specs=nano.specs -MMD -MP -MF"dpl/MutexP_freertos.d" -MT"dpl/MutexP_freertos.o"  -o"dpl/MutexP_freertos.o" "/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/kernel/freertos/dpl/MutexP_freertos.c"
+Finished building: "/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/kernel/freertos/dpl/MutexP_freertos.c"
+ 
+Building file: "/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/kernel/freertos/dpl/HwiPMSP432_freertos.c"
+Invoking: GNU Compiler
+"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/arm-none-eabi-gcc" -c -mcpu=cortex-m4 -march=armv7e-m -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DDeviceFamily_MSP432P401x -D__MSP432P401R__ -I"/Users/makiah/Desktop/Karman/workspace/freertos_builds_MSP_EXP432P401R_release_gcc" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/include" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/portable/GCC/ARM_CM4F" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/gcc" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/third_party/CMSIS/Include" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include/newlib-nano" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall --specs=nano.specs -MMD -MP -MF"dpl/HwiPMSP432_freertos.d" -MT"dpl/HwiPMSP432_freertos.o"  -o"dpl/HwiPMSP432_freertos.o" "/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/kernel/freertos/dpl/HwiPMSP432_freertos.c"
+Finished building: "/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/kernel/freertos/dpl/HwiPMSP432_freertos.c"
+ 
+Building file: "/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/kernel/freertos/startup/startup_msp432_gcc.c"
+Invoking: GNU Compiler
+"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/arm-none-eabi-gcc" -c -mcpu=cortex-m4 -march=armv7e-m -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DDeviceFamily_MSP432P401x -D__MSP432P401R__ -I"/Users/makiah/Desktop/Karman/workspace/freertos_builds_MSP_EXP432P401R_release_gcc" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/include" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/portable/GCC/ARM_CM4F" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/gcc" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/third_party/CMSIS/Include" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include/newlib-nano" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall --specs=nano.specs -MMD -MP -MF"freertos/startup/startup_msp432_gcc.d" -MT"freertos/startup/startup_msp432_gcc.o"  -o"freertos/startup/startup_msp432_gcc.o" "/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/kernel/freertos/startup/startup_msp432_gcc.c"
+Finished building: "/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/kernel/freertos/startup/startup_msp432_gcc.c"
+ 
+Building file: "/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/kernel/freertos/dpl/ClockP_freertos.c"
+Invoking: GNU Compiler
+"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/arm-none-eabi-gcc" -c -mcpu=cortex-m4 -march=armv7e-m -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DDeviceFamily_MSP432P401x -D__MSP432P401R__ -I"/Users/makiah/Desktop/Karman/workspace/freertos_builds_MSP_EXP432P401R_release_gcc" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/include" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/portable/GCC/ARM_CM4F" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/gcc" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/third_party/CMSIS/Include" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include/newlib-nano" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall --specs=nano.specs -MMD -MP -MF"dpl/ClockP_freertos.d" -MT"dpl/ClockP_freertos.o"  -o"dpl/ClockP_freertos.o" "/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/kernel/freertos/dpl/ClockP_freertos.c"
+Finished building: "/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/kernel/freertos/dpl/ClockP_freertos.c"
+ 
+Building file: "/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/freertos/memory.c"
+Invoking: GNU Compiler
+"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/arm-none-eabi-gcc" -c -mcpu=cortex-m4 -march=armv7e-m -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DDeviceFamily_MSP432P401x -D__MSP432P401R__ -I"/Users/makiah/Desktop/Karman/workspace/freertos_builds_MSP_EXP432P401R_release_gcc" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/include" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/portable/GCC/ARM_CM4F" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/gcc" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/third_party/CMSIS/Include" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include/newlib-nano" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall --specs=nano.specs -MMD -MP -MF"posix/memory.d" -MT"posix/memory.o"  -o"posix/memory.o" "/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/freertos/memory.c"
+Finished building: "/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/freertos/memory.c"
+ 
+Building file: "/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/freertos/clock.c"
+Invoking: GNU Compiler
+"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/arm-none-eabi-gcc" -c -mcpu=cortex-m4 -march=armv7e-m -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DDeviceFamily_MSP432P401x -D__MSP432P401R__ -I"/Users/makiah/Desktop/Karman/workspace/freertos_builds_MSP_EXP432P401R_release_gcc" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/include" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/portable/GCC/ARM_CM4F" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/gcc" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/third_party/CMSIS/Include" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include/newlib-nano" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall --specs=nano.specs -MMD -MP -MF"posix/clock.d" -MT"posix/clock.o"  -o"posix/clock.o" "/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/freertos/clock.c"
+Finished building: "/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/freertos/clock.c"
+ 
+Building file: "/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/freertos/pthread_barrier.c"
+Invoking: GNU Compiler
+"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/arm-none-eabi-gcc" -c -mcpu=cortex-m4 -march=armv7e-m -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DDeviceFamily_MSP432P401x -D__MSP432P401R__ -I"/Users/makiah/Desktop/Karman/workspace/freertos_builds_MSP_EXP432P401R_release_gcc" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/include" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/portable/GCC/ARM_CM4F" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/gcc" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/third_party/CMSIS/Include" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include/newlib-nano" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall --specs=nano.specs -MMD -MP -MF"posix/pthread_barrier.d" -MT"posix/pthread_barrier.o"  -o"posix/pthread_barrier.o" "/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/freertos/pthread_barrier.c"
+Finished building: "/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/freertos/pthread_barrier.c"
+ 
+Building file: "/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/freertos/mqueue.c"
+Invoking: GNU Compiler
+"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/arm-none-eabi-gcc" -c -mcpu=cortex-m4 -march=armv7e-m -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DDeviceFamily_MSP432P401x -D__MSP432P401R__ -I"/Users/makiah/Desktop/Karman/workspace/freertos_builds_MSP_EXP432P401R_release_gcc" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/include" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/portable/GCC/ARM_CM4F" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/gcc" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/third_party/CMSIS/Include" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include/newlib-nano" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall --specs=nano.specs -MMD -MP -MF"posix/mqueue.d" -MT"posix/mqueue.o"  -o"posix/mqueue.o" "/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/freertos/mqueue.c"
+Finished building: "/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/freertos/mqueue.c"
+ 
+Building file: "/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/freertos/pthread_cond.c"
+Invoking: GNU Compiler
+"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/arm-none-eabi-gcc" -c -mcpu=cortex-m4 -march=armv7e-m -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DDeviceFamily_MSP432P401x -D__MSP432P401R__ -I"/Users/makiah/Desktop/Karman/workspace/freertos_builds_MSP_EXP432P401R_release_gcc" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/include" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/portable/GCC/ARM_CM4F" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/gcc" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/third_party/CMSIS/Include" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include/newlib-nano" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall --specs=nano.specs -MMD -MP -MF"posix/pthread_cond.d" -MT"posix/pthread_cond.o"  -o"posix/pthread_cond.o" "/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/freertos/pthread_cond.c"
+Finished building: "/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/freertos/pthread_cond.c"
+ 
+Building file: "/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/freertos/pthread.c"
+Invoking: GNU Compiler
+"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/arm-none-eabi-gcc" -c -mcpu=cortex-m4 -march=armv7e-m -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DDeviceFamily_MSP432P401x -D__MSP432P401R__ -I"/Users/makiah/Desktop/Karman/workspace/freertos_builds_MSP_EXP432P401R_release_gcc" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/include" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/portable/GCC/ARM_CM4F" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/gcc" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/third_party/CMSIS/Include" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include/newlib-nano" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall --specs=nano.specs -MMD -MP -MF"posix/pthread.d" -MT"posix/pthread.o"  -o"posix/pthread.o" "/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/freertos/pthread.c"
+Finished building: "/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/freertos/pthread.c"
+ 
+Building file: "/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/freertos/pthread_mutex.c"
+Invoking: GNU Compiler
+"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/arm-none-eabi-gcc" -c -mcpu=cortex-m4 -march=armv7e-m -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DDeviceFamily_MSP432P401x -D__MSP432P401R__ -I"/Users/makiah/Desktop/Karman/workspace/freertos_builds_MSP_EXP432P401R_release_gcc" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/include" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/portable/GCC/ARM_CM4F" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/gcc" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/third_party/CMSIS/Include" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include/newlib-nano" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall --specs=nano.specs -MMD -MP -MF"posix/pthread_mutex.d" -MT"posix/pthread_mutex.o"  -o"posix/pthread_mutex.o" "/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/freertos/pthread_mutex.c"
+Finished building: "/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/freertos/pthread_mutex.c"
+ 
+Building file: "/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/freertos/pthread_rwlock.c"
+Invoking: GNU Compiler
+"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/arm-none-eabi-gcc" -c -mcpu=cortex-m4 -march=armv7e-m -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DDeviceFamily_MSP432P401x -D__MSP432P401R__ -I"/Users/makiah/Desktop/Karman/workspace/freertos_builds_MSP_EXP432P401R_release_gcc" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/include" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/portable/GCC/ARM_CM4F" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/gcc" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/third_party/CMSIS/Include" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include/newlib-nano" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall --specs=nano.specs -MMD -MP -MF"posix/pthread_rwlock.d" -MT"posix/pthread_rwlock.o"  -o"posix/pthread_rwlock.o" "/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/freertos/pthread_rwlock.c"
+Finished building: "/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/freertos/pthread_rwlock.c"
+ 
+Building file: "/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/freertos/sched.c"
+Invoking: GNU Compiler
+"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/arm-none-eabi-gcc" -c -mcpu=cortex-m4 -march=armv7e-m -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DDeviceFamily_MSP432P401x -D__MSP432P401R__ -I"/Users/makiah/Desktop/Karman/workspace/freertos_builds_MSP_EXP432P401R_release_gcc" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/include" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/portable/GCC/ARM_CM4F" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/gcc" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/third_party/CMSIS/Include" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include/newlib-nano" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall --specs=nano.specs -MMD -MP -MF"posix/sched.d" -MT"posix/sched.o"  -o"posix/sched.o" "/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/freertos/sched.c"
+Finished building: "/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/freertos/sched.c"
+ 
+Building file: "/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/freertos/semaphore.c"
+Invoking: GNU Compiler
+"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/arm-none-eabi-gcc" -c -mcpu=cortex-m4 -march=armv7e-m -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DDeviceFamily_MSP432P401x -D__MSP432P401R__ -I"/Users/makiah/Desktop/Karman/workspace/freertos_builds_MSP_EXP432P401R_release_gcc" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/include" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/portable/GCC/ARM_CM4F" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/gcc" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/third_party/CMSIS/Include" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include/newlib-nano" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall --specs=nano.specs -MMD -MP -MF"posix/semaphore.d" -MT"posix/semaphore.o"  -o"posix/semaphore.o" "/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/freertos/semaphore.c"
+Finished building: "/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/freertos/semaphore.c"
+ 
+Building file: "/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/freertos/sleep.c"
+Invoking: GNU Compiler
+"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/arm-none-eabi-gcc" -c -mcpu=cortex-m4 -march=armv7e-m -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DDeviceFamily_MSP432P401x -D__MSP432P401R__ -I"/Users/makiah/Desktop/Karman/workspace/freertos_builds_MSP_EXP432P401R_release_gcc" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/include" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/portable/GCC/ARM_CM4F" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/gcc" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/third_party/CMSIS/Include" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include/newlib-nano" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall --specs=nano.specs -MMD -MP -MF"posix/sleep.d" -MT"posix/sleep.o"  -o"posix/sleep.o" "/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/freertos/sleep.c"
+Finished building: "/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/freertos/sleep.c"
+ 
+Building file: "/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/freertos/timer.c"
+Invoking: GNU Compiler
+"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/arm-none-eabi-gcc" -c -mcpu=cortex-m4 -march=armv7e-m -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DDeviceFamily_MSP432P401x -D__MSP432P401R__ -I"/Users/makiah/Desktop/Karman/workspace/freertos_builds_MSP_EXP432P401R_release_gcc" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/include" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/portable/GCC/ARM_CM4F" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/gcc" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/third_party/CMSIS/Include" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include/newlib-nano" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall --specs=nano.specs -MMD -MP -MF"posix/timer.d" -MT"posix/timer.o"  -o"posix/timer.o" "/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/freertos/timer.c"
+Finished building: "/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/freertos/timer.c"
+ 
+Building target: "libfreertos_builds_MSP_EXP432P401R_release_gcc.a"
+Invoking: GNU Librarian
+"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/arm-none-eabi-ar" -r "libfreertos_builds_MSP_EXP432P401R_release_gcc.a" "./dpl/ClockP_freertos.o" "./dpl/DebugP_freertos.o" "./dpl/HwiPMSP432_freertos.o" "./dpl/MutexP_freertos.o" "./dpl/PowerMSP432_freertos.o" "./dpl/SemaphoreP_freertos.o" "./dpl/SystemP_freertos.o" "./freertos/croutine.o" "./freertos/event_groups.o" "./freertos/heap_4.o" "./freertos/list.o" "./freertos/queue.o" "./freertos/tasks.o" "./freertos/timers.o" "./freertos/portable/GCC/ARM_CM4F/port.o" "./freertos/startup/startup_msp432_gcc.o" "./posix/clock.o" "./posix/memory.o" "./posix/mqueue.o" "./posix/pthread.o" "./posix/pthread_barrier.o" "./posix/pthread_cond.o" "./posix/pthread_mutex.o" "./posix/pthread_rwlock.o" "./posix/sched.o" "./posix/semaphore.o" "./posix/sleep.o" "./posix/timer.o" 
+/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/arm-none-eabi-ar: creating libfreertos_builds_MSP_EXP432P401R_release_gcc.a
+Finished building target: "libfreertos_builds_MSP_EXP432P401R_release_gcc.a"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project freertos_builds_MSP_EXP432P401R_release_gcc ****
+
+/Users/makiah/ti/ccsv7/utils/bin/gmake -k -j 7 all -O 
+ 
+gmake: Nothing to be done for 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project karman-application ****
+
+/Users/makiah/ti/ccsv7/utils/bin/gmake -k -j 7 all -O 
+ 
+Building target: "karman-application.out"
+Invoking: GNU Linker
+"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/arm-none-eabi-gcc" -DDeviceFamily_MSP432P401x -D__MSP432P401R__ -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall -march=armv7e-m -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -Wl,-Map,"karman-application.map" -nostartfiles -static -Wl,--gc-sections -L"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source" -L"/Users/makiah/Desktop/Karman/workspace/freertos_builds_MSP_EXP432P401R_release_gcc/Debug" -march=armv7e-m -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 --specs=nano.specs -o"karman-application.out" "./src/appGlobals.o" "./src/appInit.o" "./src/main_freertos.o" "./src/board/MSP_EXP432P401R.o" "./src/drivers/Adafruit_BNO055.o" "./src/drivers/ms5607-02ba03.o" "./src/tasks/IMUTask.o" "./src/tasks/appMain.o" "./src/tasks/sensorTask.o" "./src/utils/debug_printf.o" "./src/utils/timeUtils.o" -Wl,-T"../MSP_EXP432P401R_FREERTOS.lds"  -Wl,--start-group -lstdc++_nano -lc_nano -l":ti/display/lib/display.am4fg" -l":ti/drivers/lib/drivers_msp432p401x.am4fg" -l":third_party/fatfs/lib/fatfs.am4fg" -l:libfreertos_builds_MSP_EXP432P401R_release_gcc.a -l":ti/devices/msp432p4xx/driverlib/gcc/msp432p4xx_driverlib.a" -lgcc -lm -lnosys -Wl,--end-group 
+Finished building target: "karman-application.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project freertos_builds_MSP_EXP432P401R_release_gcc ****
+
+/Users/makiah/ti/ccsv7/utils/bin/gmake -k -j 7 all -O 
+ 
+gmake: Nothing to be done for 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project freertos_builds_MSP_EXP432P401R_release_gcc ****
+
+/Users/makiah/ti/ccsv7/utils/bin/gmake -k -j 7 all -O 
+ 
+gmake: Nothing to be done for 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project karman-application ****
+
+/Users/makiah/ti/ccsv7/utils/bin/gmake -k -j 7 all -O 
+ 
+gmake[1]: 'karman-application.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project freertos_builds_MSP_EXP432P401R_release_gcc ****
+
+/Users/makiah/ti/ccsv7/utils/bin/gmake -k -j 7 all -O 
+ 
+Building target: "libfreertos_builds_MSP_EXP432P401R_release_gcc.a"
+Invoking: GNU Librarian
+"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/arm-none-eabi-ar" -r "libfreertos_builds_MSP_EXP432P401R_release_gcc.a" "./dpl/ClockP_freertos.o" "./dpl/DebugP_freertos.o" "./dpl/HwiPMSP432_freertos.o" "./dpl/MutexP_freertos.o" "./dpl/PowerMSP432_freertos.o" "./dpl/SemaphoreP_freertos.o" "./dpl/SystemP_freertos.o" "./freertos/croutine.o" "./freertos/event_groups.o" "./freertos/heap_4.o" "./freertos/list.o" "./freertos/queue.o" "./freertos/tasks.o" "./freertos/timers.o" "./freertos/portable/GCC/ARM_CM4F/port.o" "./freertos/startup/startup_msp432_gcc.o" "./posix/clock.o" "./posix/memory.o" "./posix/mqueue.o" "./posix/pthread.o" "./posix/pthread_barrier.o" "./posix/pthread_cond.o" "./posix/pthread_mutex.o" "./posix/pthread_rwlock.o" "./posix/sched.o" "./posix/semaphore.o" "./posix/sleep.o" "./posix/timer.o" 
+/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/arm-none-eabi-ar: creating libfreertos_builds_MSP_EXP432P401R_release_gcc.a
+Finished building target: "libfreertos_builds_MSP_EXP432P401R_release_gcc.a"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project karman-application ****
+
+/Users/makiah/ti/ccsv7/utils/bin/gmake -k -j 7 all -O 
+ 
+Building file: "../src/drivers/ms5607-02ba03.c"
+Invoking: GNU Compiler
+"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/arm-none-eabi-gcc" -c -mcpu=cortex-m4 -march=armv7e-m -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DDeviceFamily_MSP432P401x -D__MSP432P401R__ -I"/Users/makiah/Desktop/Karman/workspace/karman-application" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/third_party/CMSIS/Include" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/gcc" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/include" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/portable/GCC/ARM_CM4F" -I"/Users/makiah/Desktop/Karman/workspace/freertos_builds_MSP_EXP432P401R_release_gcc" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include/newlib-nano" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc/common" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc/flight" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc/pyro" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc/radio" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors" -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall -MMD -MP -MF"src/drivers/ms5607-02ba03.d" -MT"src/drivers/ms5607-02ba03.o"  -o"src/drivers/ms5607-02ba03.o" "../src/drivers/ms5607-02ba03.c"
+src/drivers/subdir_rules.mk:14: recipe for target 'src/drivers/ms5607-02ba03.o' failed
+In file included from /Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors/Adafruit_BNO055.h:23:0,
+                 from /Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors/sensorDefs.h:18,
+                 from ../src/drivers/ms5607-02ba03.c:22:
+/Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors/Adafruit_Sensor.h:134:1: error: unknown type name 'class'
+ class Adafruit_Sensor {
+ ^~~~~
+/Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors/Adafruit_Sensor.h:134:23: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ class Adafruit_Sensor {
+                       ^
+In file included from /Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors/imumaths.h:24:0,
+                 from /Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors/Adafruit_BNO055.h:24,
+                 from /Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors/sensorDefs.h:18,
+                 from ../src/drivers/ms5607-02ba03.c:22:
+/Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors/vector.h:30:1: error: unknown type name 'namespace'
+ namespace imu
+ ^~~~~~~~~
+/Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors/vector.h:31:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+In file included from /Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors/imumaths.h:25:0,
+                 from /Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors/Adafruit_BNO055.h:24,
+                 from /Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors/sensorDefs.h:18,
+                 from ../src/drivers/ms5607-02ba03.c:22:
+/Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors/matrix.h:30:1: error: unknown type name 'namespace'
+ namespace imu
+ ^~~~~~~~~
+/Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors/matrix.h:31:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+In file included from /Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors/imumaths.h:26:0,
+                 from /Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors/Adafruit_BNO055.h:24,
+                 from /Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors/sensorDefs.h:18,
+                 from ../src/drivers/ms5607-02ba03.c:22:
+/Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors/quaternion.h:34:1: error: unknown type name 'namespace'
+ namespace imu
+ ^~~~~~~~~
+/Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors/quaternion.h:35:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+In file included from /Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors/sensorDefs.h:18:0,
+                 from ../src/drivers/ms5607-02ba03.c:22:
+/Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors/Adafruit_BNO055.h:50:1: error: unknown type name 'class'
+ class Adafruit_BNO055 : public Adafruit_Sensor
+ ^~~~~
+/Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors/Adafruit_BNO055.h:50:23: error: expected '=', ',', ';', 'asm' or '__attribute__' before ':' token
+ class Adafruit_BNO055 : public Adafruit_Sensor
+                       ^
+gmake: *** [src/drivers/ms5607-02ba03.o] Error 1
+Building file: "../src/tasks/sensorTask.c"
+Invoking: GNU Compiler
+"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/arm-none-eabi-gcc" -c -mcpu=cortex-m4 -march=armv7e-m -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DDeviceFamily_MSP432P401x -D__MSP432P401R__ -I"/Users/makiah/Desktop/Karman/workspace/karman-application" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/third_party/CMSIS/Include" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/gcc" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/include" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/portable/GCC/ARM_CM4F" -I"/Users/makiah/Desktop/Karman/workspace/freertos_builds_MSP_EXP432P401R_release_gcc" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include/newlib-nano" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc/common" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc/flight" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc/pyro" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc/radio" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors" -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall -MMD -MP -MF"src/tasks/sensorTask.d" -MT"src/tasks/sensorTask.o"  -o"src/tasks/sensorTask.o" "../src/tasks/sensorTask.c"
+src/tasks/subdir_rules.mk:14: recipe for target 'src/tasks/sensorTask.o' failed
+In file included from /Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors/Adafruit_BNO055.h:23:0,
+                 from /Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors/sensorDefs.h:18,
+                 from ../src/tasks/sensorTask.c:16:
+/Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors/Adafruit_Sensor.h:134:1: error: unknown type name 'class'
+ class Adafruit_Sensor {
+ ^~~~~
+/Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors/Adafruit_Sensor.h:134:23: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ class Adafruit_Sensor {
+                       ^
+In file included from /Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors/imumaths.h:24:0,
+                 from /Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors/Adafruit_BNO055.h:24,
+                 from /Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors/sensorDefs.h:18,
+                 from ../src/tasks/sensorTask.c:16:
+/Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors/vector.h:30:1: error: unknown type name 'namespace'
+ namespace imu
+ ^~~~~~~~~
+/Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors/vector.h:31:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+In file included from /Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors/imumaths.h:25:0,
+                 from /Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors/Adafruit_BNO055.h:24,
+                 from /Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors/sensorDefs.h:18,
+                 from ../src/tasks/sensorTask.c:16:
+/Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors/matrix.h:30:1: error: unknown type name 'namespace'
+ namespace imu
+ ^~~~~~~~~
+/Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors/matrix.h:31:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+In file included from /Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors/imumaths.h:26:0,
+                 from /Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors/Adafruit_BNO055.h:24,
+                 from /Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors/sensorDefs.h:18,
+                 from ../src/tasks/sensorTask.c:16:
+/Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors/quaternion.h:34:1: error: unknown type name 'namespace'
+ namespace imu
+ ^~~~~~~~~
+/Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors/quaternion.h:35:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+In file included from /Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors/sensorDefs.h:18:0,
+                 from ../src/tasks/sensorTask.c:16:
+/Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors/Adafruit_BNO055.h:50:1: error: unknown type name 'class'
+ class Adafruit_BNO055 : public Adafruit_Sensor
+ ^~~~~
+/Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors/Adafruit_BNO055.h:50:23: error: expected '=', ',', ';', 'asm' or '__attribute__' before ':' token
+ class Adafruit_BNO055 : public Adafruit_Sensor
+                       ^
+gmake: *** [src/tasks/sensorTask.o] Error 1
+Building file: "../src/appInit.c"
+Invoking: GNU Compiler
+"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/arm-none-eabi-gcc" -c -mcpu=cortex-m4 -march=armv7e-m -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DDeviceFamily_MSP432P401x -D__MSP432P401R__ -I"/Users/makiah/Desktop/Karman/workspace/karman-application" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/third_party/CMSIS/Include" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/gcc" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/include" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/portable/GCC/ARM_CM4F" -I"/Users/makiah/Desktop/Karman/workspace/freertos_builds_MSP_EXP432P401R_release_gcc" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include/newlib-nano" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc/common" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc/flight" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc/pyro" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc/radio" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors" -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall -MMD -MP -MF"src/appInit.d" -MT"src/appInit.o"  -o"src/appInit.o" "../src/appInit.c"
+src/subdir_rules.mk:7: recipe for target 'src/appInit.o' failed
+In file included from /Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors/Adafruit_BNO055.h:23:0,
+                 from /Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors/sensorDefs.h:18,
+                 from ../src/appInit.c:63:
+/Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors/Adafruit_Sensor.h:134:1: error: unknown type name 'class'
+ class Adafruit_Sensor {
+ ^~~~~
+/Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors/Adafruit_Sensor.h:134:23: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ class Adafruit_Sensor {
+                       ^
+In file included from /Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors/imumaths.h:24:0,
+                 from /Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors/Adafruit_BNO055.h:24,
+                 from /Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors/sensorDefs.h:18,
+                 from ../src/appInit.c:63:
+/Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors/vector.h:30:1: error: unknown type name 'namespace'
+ namespace imu
+ ^~~~~~~~~
+/Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors/vector.h:31:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+In file included from /Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors/imumaths.h:25:0,
+                 from /Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors/Adafruit_BNO055.h:24,
+                 from /Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors/sensorDefs.h:18,
+                 from ../src/appInit.c:63:
+/Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors/matrix.h:30:1: error: unknown type name 'namespace'
+ namespace imu
+ ^~~~~~~~~
+/Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors/matrix.h:31:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+In file included from /Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors/imumaths.h:26:0,
+                 from /Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors/Adafruit_BNO055.h:24,
+                 from /Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors/sensorDefs.h:18,
+                 from ../src/appInit.c:63:
+/Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors/quaternion.h:34:1: error: unknown type name 'namespace'
+ namespace imu
+ ^~~~~~~~~
+/Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors/quaternion.h:35:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+In file included from /Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors/sensorDefs.h:18:0,
+                 from ../src/appInit.c:63:
+/Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors/Adafruit_BNO055.h:50:1: error: unknown type name 'class'
+ class Adafruit_BNO055 : public Adafruit_Sensor
+ ^~~~~
+/Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors/Adafruit_BNO055.h:50:23: error: expected '=', ',', ';', 'asm' or '__attribute__' before ':' token
+ class Adafruit_BNO055 : public Adafruit_Sensor
+                       ^
+gmake: *** [src/appInit.o] Error 1
+Building file: "../src/tasks/appMain.c"
+Invoking: GNU Compiler
+"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/arm-none-eabi-gcc" -c -mcpu=cortex-m4 -march=armv7e-m -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DDeviceFamily_MSP432P401x -D__MSP432P401R__ -I"/Users/makiah/Desktop/Karman/workspace/karman-application" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/third_party/CMSIS/Include" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/gcc" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/include" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/portable/GCC/ARM_CM4F" -I"/Users/makiah/Desktop/Karman/workspace/freertos_builds_MSP_EXP432P401R_release_gcc" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include/newlib-nano" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc/common" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc/flight" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc/pyro" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc/radio" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors" -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall -MMD -MP -MF"src/tasks/appMain.d" -MT"src/tasks/appMain.o"  -o"src/tasks/appMain.o" "../src/tasks/appMain.c"
+Finished building: "../src/tasks/appMain.c"
+ 
+Building file: "../src/tasks/IMUTask.cpp"
+Invoking: GNU Compiler
+"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/arm-none-eabi-gcc" -c -mcpu=cortex-m4 -march=armv7e-m -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DDeviceFamily_MSP432P401x -D__MSP432P401R__ -I"/Users/makiah/Desktop/Karman/workspace/karman-application" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/third_party/CMSIS/Include" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/gcc" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/include" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/portable/GCC/ARM_CM4F" -I"/Users/makiah/Desktop/Karman/workspace/freertos_builds_MSP_EXP432P401R_release_gcc" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include/newlib-nano" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc/common" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc/flight" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc/pyro" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc/radio" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors" -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall -MMD -MP -MF"src/tasks/IMUTask.d" -MT"src/tasks/IMUTask.o"  -o"src/tasks/IMUTask.o" "../src/tasks/IMUTask.cpp"
+Finished building: "../src/tasks/IMUTask.cpp"
+ 
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project freertos_builds_MSP_EXP432P401R_release_gcc ****
+
+/Users/makiah/ti/ccsv7/utils/bin/gmake -k -j 7 all -O 
+ 
+gmake: Nothing to be done for 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project karman-application ****
+
+/Users/makiah/ti/ccsv7/utils/bin/gmake -k -j 7 all -O 
+ 
+Building file: "../src/drivers/ms5607-02ba03.c"
+Invoking: GNU Compiler
+"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/arm-none-eabi-gcc" -c -mcpu=cortex-m4 -march=armv7e-m -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DDeviceFamily_MSP432P401x -D__MSP432P401R__ -I"/Users/makiah/Desktop/Karman/workspace/karman-application" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/third_party/CMSIS/Include" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/gcc" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/include" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/portable/GCC/ARM_CM4F" -I"/Users/makiah/Desktop/Karman/workspace/freertos_builds_MSP_EXP432P401R_release_gcc" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include/newlib-nano" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc/common" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc/flight" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc/pyro" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc/radio" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors" -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall -MMD -MP -MF"src/drivers/ms5607-02ba03.d" -MT"src/drivers/ms5607-02ba03.o"  -o"src/drivers/ms5607-02ba03.o" "../src/drivers/ms5607-02ba03.c"
+src/drivers/subdir_rules.mk:14: recipe for target 'src/drivers/ms5607-02ba03.o' failed
+In file included from /Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors/Adafruit_BNO055.h:23:0,
+                 from /Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors/sensorDefs.h:18,
+                 from ../src/drivers/ms5607-02ba03.c:22:
+/Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors/Adafruit_Sensor.h:134:1: error: unknown type name 'class'
+ class Adafruit_Sensor {
+ ^~~~~
+/Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors/Adafruit_Sensor.h:134:23: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ class Adafruit_Sensor {
+                       ^
+In file included from /Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors/imumaths.h:24:0,
+                 from /Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors/Adafruit_BNO055.h:24,
+                 from /Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors/sensorDefs.h:18,
+                 from ../src/drivers/ms5607-02ba03.c:22:
+/Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors/vector.h:30:1: error: unknown type name 'namespace'
+ namespace imu
+ ^~~~~~~~~
+/Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors/vector.h:31:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+In file included from /Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors/imumaths.h:25:0,
+                 from /Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors/Adafruit_BNO055.h:24,
+                 from /Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors/sensorDefs.h:18,
+                 from ../src/drivers/ms5607-02ba03.c:22:
+/Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors/matrix.h:30:1: error: unknown type name 'namespace'
+ namespace imu
+ ^~~~~~~~~
+/Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors/matrix.h:31:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+In file included from /Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors/imumaths.h:26:0,
+                 from /Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors/Adafruit_BNO055.h:24,
+                 from /Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors/sensorDefs.h:18,
+                 from ../src/drivers/ms5607-02ba03.c:22:
+/Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors/quaternion.h:34:1: error: unknown type name 'namespace'
+ namespace imu
+ ^~~~~~~~~
+/Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors/quaternion.h:35:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+In file included from /Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors/sensorDefs.h:18:0,
+                 from ../src/drivers/ms5607-02ba03.c:22:
+/Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors/Adafruit_BNO055.h:50:1: error: unknown type name 'class'
+ class Adafruit_BNO055 : public Adafruit_Sensor
+ ^~~~~
+/Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors/Adafruit_BNO055.h:50:23: error: expected '=', ',', ';', 'asm' or '__attribute__' before ':' token
+ class Adafruit_BNO055 : public Adafruit_Sensor
+                       ^
+gmake: *** [src/drivers/ms5607-02ba03.o] Error 1
+Building file: "../src/tasks/sensorTask.c"
+Invoking: GNU Compiler
+"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/arm-none-eabi-gcc" -c -mcpu=cortex-m4 -march=armv7e-m -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DDeviceFamily_MSP432P401x -D__MSP432P401R__ -I"/Users/makiah/Desktop/Karman/workspace/karman-application" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/third_party/CMSIS/Include" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/gcc" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/include" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/portable/GCC/ARM_CM4F" -I"/Users/makiah/Desktop/Karman/workspace/freertos_builds_MSP_EXP432P401R_release_gcc" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include/newlib-nano" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc/common" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc/flight" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc/pyro" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc/radio" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors" -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall -MMD -MP -MF"src/tasks/sensorTask.d" -MT"src/tasks/sensorTask.o"  -o"src/tasks/sensorTask.o" "../src/tasks/sensorTask.c"
+src/tasks/subdir_rules.mk:14: recipe for target 'src/tasks/sensorTask.o' failed
+In file included from /Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors/Adafruit_BNO055.h:23:0,
+                 from /Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors/sensorDefs.h:18,
+                 from ../src/tasks/sensorTask.c:16:
+/Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors/Adafruit_Sensor.h:134:1: error: unknown type name 'class'
+ class Adafruit_Sensor {
+ ^~~~~
+/Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors/Adafruit_Sensor.h:134:23: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ class Adafruit_Sensor {
+                       ^
+In file included from /Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors/imumaths.h:24:0,
+                 from /Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors/Adafruit_BNO055.h:24,
+                 from /Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors/sensorDefs.h:18,
+                 from ../src/tasks/sensorTask.c:16:
+/Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors/vector.h:30:1: error: unknown type name 'namespace'
+ namespace imu
+ ^~~~~~~~~
+/Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors/vector.h:31:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+In file included from /Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors/imumaths.h:25:0,
+                 from /Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors/Adafruit_BNO055.h:24,
+                 from /Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors/sensorDefs.h:18,
+                 from ../src/tasks/sensorTask.c:16:
+/Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors/matrix.h:30:1: error: unknown type name 'namespace'
+ namespace imu
+ ^~~~~~~~~
+/Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors/matrix.h:31:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+In file included from /Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors/imumaths.h:26:0,
+                 from /Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors/Adafruit_BNO055.h:24,
+                 from /Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors/sensorDefs.h:18,
+                 from ../src/tasks/sensorTask.c:16:
+/Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors/quaternion.h:34:1: error: unknown type name 'namespace'
+ namespace imu
+ ^~~~~~~~~
+/Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors/quaternion.h:35:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+In file included from /Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors/sensorDefs.h:18:0,
+                 from ../src/tasks/sensorTask.c:16:
+/Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors/Adafruit_BNO055.h:50:1: error: unknown type name 'class'
+ class Adafruit_BNO055 : public Adafruit_Sensor
+ ^~~~~
+/Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors/Adafruit_BNO055.h:50:23: error: expected '=', ',', ';', 'asm' or '__attribute__' before ':' token
+ class Adafruit_BNO055 : public Adafruit_Sensor
+                       ^
+gmake: *** [src/tasks/sensorTask.o] Error 1
+Building file: "../src/appInit.c"
+Invoking: GNU Compiler
+"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/arm-none-eabi-gcc" -c -mcpu=cortex-m4 -march=armv7e-m -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DDeviceFamily_MSP432P401x -D__MSP432P401R__ -I"/Users/makiah/Desktop/Karman/workspace/karman-application" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/third_party/CMSIS/Include" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/gcc" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/include" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/portable/GCC/ARM_CM4F" -I"/Users/makiah/Desktop/Karman/workspace/freertos_builds_MSP_EXP432P401R_release_gcc" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include/newlib-nano" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc/common" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc/flight" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc/pyro" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc/radio" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors" -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall -MMD -MP -MF"src/appInit.d" -MT"src/appInit.o"  -o"src/appInit.o" "../src/appInit.c"
+src/subdir_rules.mk:7: recipe for target 'src/appInit.o' failed
+In file included from /Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors/Adafruit_BNO055.h:23:0,
+                 from /Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors/sensorDefs.h:18,
+                 from ../src/appInit.c:63:
+/Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors/Adafruit_Sensor.h:134:1: error: unknown type name 'class'
+ class Adafruit_Sensor {
+ ^~~~~
+/Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors/Adafruit_Sensor.h:134:23: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ class Adafruit_Sensor {
+                       ^
+In file included from /Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors/imumaths.h:24:0,
+                 from /Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors/Adafruit_BNO055.h:24,
+                 from /Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors/sensorDefs.h:18,
+                 from ../src/appInit.c:63:
+/Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors/vector.h:30:1: error: unknown type name 'namespace'
+ namespace imu
+ ^~~~~~~~~
+/Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors/vector.h:31:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+In file included from /Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors/imumaths.h:25:0,
+                 from /Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors/Adafruit_BNO055.h:24,
+                 from /Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors/sensorDefs.h:18,
+                 from ../src/appInit.c:63:
+/Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors/matrix.h:30:1: error: unknown type name 'namespace'
+ namespace imu
+ ^~~~~~~~~
+/Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors/matrix.h:31:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+In file included from /Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors/imumaths.h:26:0,
+                 from /Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors/Adafruit_BNO055.h:24,
+                 from /Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors/sensorDefs.h:18,
+                 from ../src/appInit.c:63:
+/Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors/quaternion.h:34:1: error: unknown type name 'namespace'
+ namespace imu
+ ^~~~~~~~~
+/Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors/quaternion.h:35:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+In file included from /Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors/sensorDefs.h:18:0,
+                 from ../src/appInit.c:63:
+/Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors/Adafruit_BNO055.h:50:1: error: unknown type name 'class'
+ class Adafruit_BNO055 : public Adafruit_Sensor
+ ^~~~~
+/Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors/Adafruit_BNO055.h:50:23: error: expected '=', ',', ';', 'asm' or '__attribute__' before ':' token
+ class Adafruit_BNO055 : public Adafruit_Sensor
+                       ^
+gmake: *** [src/appInit.o] Error 1
+Building file: "../src/tasks/IMUTask.cpp"
+Invoking: GNU Compiler
+"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/arm-none-eabi-gcc" -c -mcpu=cortex-m4 -march=armv7e-m -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DDeviceFamily_MSP432P401x -D__MSP432P401R__ -I"/Users/makiah/Desktop/Karman/workspace/karman-application" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/third_party/CMSIS/Include" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/gcc" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/include" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/portable/GCC/ARM_CM4F" -I"/Users/makiah/Desktop/Karman/workspace/freertos_builds_MSP_EXP432P401R_release_gcc" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include/newlib-nano" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc/common" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc/flight" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc/pyro" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc/radio" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors" -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall -MMD -MP -MF"src/tasks/IMUTask.d" -MT"src/tasks/IMUTask.o"  -o"src/tasks/IMUTask.o" "../src/tasks/IMUTask.cpp"
+Finished building: "../src/tasks/IMUTask.cpp"
+ 
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project freertos_builds_MSP_EXP432P401R_release_gcc ****
+
+/Users/makiah/ti/ccsv7/utils/bin/gmake -k -j 7 all -O 
+ 
+gmake: Nothing to be done for 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project karman-application ****
+
+/Users/makiah/ti/ccsv7/utils/bin/gmake -k -j 7 all -O 
+ 
+Building file: "../src/appInit.c"
+Invoking: GNU Compiler
+"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/arm-none-eabi-gcc" -c -mcpu=cortex-m4 -march=armv7e-m -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DDeviceFamily_MSP432P401x -D__MSP432P401R__ -I"/Users/makiah/Desktop/Karman/workspace/karman-application" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/third_party/CMSIS/Include" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/gcc" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/include" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/portable/GCC/ARM_CM4F" -I"/Users/makiah/Desktop/Karman/workspace/freertos_builds_MSP_EXP432P401R_release_gcc" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include/newlib-nano" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc/common" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc/flight" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc/pyro" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc/radio" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors" -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall -MMD -MP -MF"src/appInit.d" -MT"src/appInit.o"  -o"src/appInit.o" "../src/appInit.c"
+Finished building: "../src/appInit.c"
+ 
+Building file: "../src/drivers/ms5607-02ba03.c"
+Invoking: GNU Compiler
+"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/arm-none-eabi-gcc" -c -mcpu=cortex-m4 -march=armv7e-m -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DDeviceFamily_MSP432P401x -D__MSP432P401R__ -I"/Users/makiah/Desktop/Karman/workspace/karman-application" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/third_party/CMSIS/Include" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/gcc" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/include" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/portable/GCC/ARM_CM4F" -I"/Users/makiah/Desktop/Karman/workspace/freertos_builds_MSP_EXP432P401R_release_gcc" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include/newlib-nano" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc/common" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc/flight" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc/pyro" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc/radio" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors" -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall -MMD -MP -MF"src/drivers/ms5607-02ba03.d" -MT"src/drivers/ms5607-02ba03.o"  -o"src/drivers/ms5607-02ba03.o" "../src/drivers/ms5607-02ba03.c"
+Finished building: "../src/drivers/ms5607-02ba03.c"
+ 
+Building file: "../src/tasks/sensorTask.c"
+Invoking: GNU Compiler
+"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/arm-none-eabi-gcc" -c -mcpu=cortex-m4 -march=armv7e-m -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DDeviceFamily_MSP432P401x -D__MSP432P401R__ -I"/Users/makiah/Desktop/Karman/workspace/karman-application" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/third_party/CMSIS/Include" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/gcc" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/include" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/portable/GCC/ARM_CM4F" -I"/Users/makiah/Desktop/Karman/workspace/freertos_builds_MSP_EXP432P401R_release_gcc" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include/newlib-nano" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc/common" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc/flight" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc/pyro" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc/radio" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors" -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall -MMD -MP -MF"src/tasks/sensorTask.d" -MT"src/tasks/sensorTask.o"  -o"src/tasks/sensorTask.o" "../src/tasks/sensorTask.c"
+Finished building: "../src/tasks/sensorTask.c"
+ 
+Building file: "../src/tasks/IMUTask.cpp"
+Invoking: GNU Compiler
+"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/arm-none-eabi-gcc" -c -mcpu=cortex-m4 -march=armv7e-m -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DDeviceFamily_MSP432P401x -D__MSP432P401R__ -I"/Users/makiah/Desktop/Karman/workspace/karman-application" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/third_party/CMSIS/Include" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/gcc" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/include" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/portable/GCC/ARM_CM4F" -I"/Users/makiah/Desktop/Karman/workspace/freertos_builds_MSP_EXP432P401R_release_gcc" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include/newlib-nano" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc/common" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc/flight" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc/pyro" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc/radio" -I"/Users/makiah/Desktop/Karman/workspace/karman-application/inc/sensors" -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall -MMD -MP -MF"src/tasks/IMUTask.d" -MT"src/tasks/IMUTask.o"  -o"src/tasks/IMUTask.o" "../src/tasks/IMUTask.cpp"
+Finished building: "../src/tasks/IMUTask.cpp"
+ 
+Building target: "karman-application.out"
+Invoking: GNU Linker
+"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/arm-none-eabi-gcc" -DDeviceFamily_MSP432P401x -D__MSP432P401R__ -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall -march=armv7e-m -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -Wl,-Map,"karman-application.map" -nostartfiles -static -Wl,--gc-sections -L"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source" -L"/Users/makiah/Desktop/Karman/workspace/freertos_builds_MSP_EXP432P401R_release_gcc/Debug" -march=armv7e-m -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 --specs=nano.specs -o"karman-application.out" "./src/appGlobals.o" "./src/appInit.o" "./src/main_freertos.o" "./src/board/MSP_EXP432P401R.o" "./src/drivers/Adafruit_BNO055.o" "./src/drivers/ms5607-02ba03.o" "./src/tasks/IMUTask.o" "./src/tasks/appMain.o" "./src/tasks/sensorTask.o" "./src/utils/debug_printf.o" "./src/utils/timeUtils.o" -Wl,-T"../MSP_EXP432P401R_FREERTOS.lds"  -Wl,--start-group -lstdc++_nano -lc_nano -l":ti/display/lib/display.am4fg" -l":ti/drivers/lib/drivers_msp432p401x.am4fg" -l":third_party/fatfs/lib/fatfs.am4fg" -l:libfreertos_builds_MSP_EXP432P401R_release_gcc.a -l":ti/devices/msp432p4xx/driverlib/gcc/msp432p4xx_driverlib.a" -lgcc -lm -lnosys -Wl,--end-group 
+Finished building target: "karman-application.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project freertos_builds_MSP_EXP432P401R_release_gcc ****
+
+/Users/makiah/ti/ccsv7/utils/bin/gmake -k -j 7 all -O 
+ 
+Building target: "libfreertos_builds_MSP_EXP432P401R_release_gcc.a"
+Invoking: GNU Librarian
+"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/arm-none-eabi-ar" -r "libfreertos_builds_MSP_EXP432P401R_release_gcc.a" "./dpl/ClockP_freertos.o" "./dpl/DebugP_freertos.o" "./dpl/HwiPMSP432_freertos.o" "./dpl/MutexP_freertos.o" "./dpl/PowerMSP432_freertos.o" "./dpl/SemaphoreP_freertos.o" "./dpl/SystemP_freertos.o" "./freertos/croutine.o" "./freertos/event_groups.o" "./freertos/heap_4.o" "./freertos/list.o" "./freertos/queue.o" "./freertos/tasks.o" "./freertos/timers.o" "./freertos/portable/GCC/ARM_CM4F/port.o" "./freertos/startup/startup_msp432_gcc.o" "./posix/clock.o" "./posix/memory.o" "./posix/mqueue.o" "./posix/pthread.o" "./posix/pthread_barrier.o" "./posix/pthread_cond.o" "./posix/pthread_mutex.o" "./posix/pthread_rwlock.o" "./posix/sched.o" "./posix/semaphore.o" "./posix/sleep.o" "./posix/timer.o" 
+/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/arm-none-eabi-ar: creating libfreertos_builds_MSP_EXP432P401R_release_gcc.a
+Finished building target: "libfreertos_builds_MSP_EXP432P401R_release_gcc.a"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project karman-application ****
+
+/Users/makiah/ti/ccsv7/utils/bin/gmake -k -j 7 all -O 
+ 
+Building file: "../src/main_freertos.c"
+Invoking: GNU Compiler
+"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/arm-none-eabi-gcc" -c -mcpu=cortex-m4 -march=armv7e-m -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DDeviceFamily_MSP432P401x -D__MSP432P401R__ -I"/Users/makiah/Desktop/Karman/karman-workspace/karman-application" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/third_party/CMSIS/Include" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/gcc" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/include" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/portable/GCC/ARM_CM4F" -I"/Users/makiah/Desktop/Karman/karman-workspace/freertos_builds_MSP_EXP432P401R_release_gcc" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include/newlib-nano" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -I"/Users/makiah/Desktop/Karman/karman-workspace/karman-application/inc" -I"/Users/makiah/Desktop/Karman/karman-workspace/karman-application/inc/common" -I"/Users/makiah/Desktop/Karman/karman-workspace/karman-application/inc/flight" -I"/Users/makiah/Desktop/Karman/karman-workspace/karman-application/inc/pyro" -I"/Users/makiah/Desktop/Karman/karman-workspace/karman-application/inc/radio" -I"/Users/makiah/Desktop/Karman/karman-workspace/karman-application/inc/sensors" -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall -MMD -MP -MF"src/main_freertos.d" -MT"src/main_freertos.o"  -o"src/main_freertos.o" "../src/main_freertos.c"
+Finished building: "../src/main_freertos.c"
+ 
+Building file: "../src/drivers/ms5607-02ba03.c"
+Invoking: GNU Compiler
+"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/arm-none-eabi-gcc" -c -mcpu=cortex-m4 -march=armv7e-m -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DDeviceFamily_MSP432P401x -D__MSP432P401R__ -I"/Users/makiah/Desktop/Karman/karman-workspace/karman-application" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/third_party/CMSIS/Include" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/gcc" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/include" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/portable/GCC/ARM_CM4F" -I"/Users/makiah/Desktop/Karman/karman-workspace/freertos_builds_MSP_EXP432P401R_release_gcc" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include/newlib-nano" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -I"/Users/makiah/Desktop/Karman/karman-workspace/karman-application/inc" -I"/Users/makiah/Desktop/Karman/karman-workspace/karman-application/inc/common" -I"/Users/makiah/Desktop/Karman/karman-workspace/karman-application/inc/flight" -I"/Users/makiah/Desktop/Karman/karman-workspace/karman-application/inc/pyro" -I"/Users/makiah/Desktop/Karman/karman-workspace/karman-application/inc/radio" -I"/Users/makiah/Desktop/Karman/karman-workspace/karman-application/inc/sensors" -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall -MMD -MP -MF"src/drivers/ms5607-02ba03.d" -MT"src/drivers/ms5607-02ba03.o"  -o"src/drivers/ms5607-02ba03.o" "../src/drivers/ms5607-02ba03.c"
+Finished building: "../src/drivers/ms5607-02ba03.c"
+ 
+Building file: "../src/tasks/appMain.c"
+Invoking: GNU Compiler
+"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/arm-none-eabi-gcc" -c -mcpu=cortex-m4 -march=armv7e-m -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DDeviceFamily_MSP432P401x -D__MSP432P401R__ -I"/Users/makiah/Desktop/Karman/karman-workspace/karman-application" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/third_party/CMSIS/Include" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/gcc" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/include" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/portable/GCC/ARM_CM4F" -I"/Users/makiah/Desktop/Karman/karman-workspace/freertos_builds_MSP_EXP432P401R_release_gcc" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include/newlib-nano" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -I"/Users/makiah/Desktop/Karman/karman-workspace/karman-application/inc" -I"/Users/makiah/Desktop/Karman/karman-workspace/karman-application/inc/common" -I"/Users/makiah/Desktop/Karman/karman-workspace/karman-application/inc/flight" -I"/Users/makiah/Desktop/Karman/karman-workspace/karman-application/inc/pyro" -I"/Users/makiah/Desktop/Karman/karman-workspace/karman-application/inc/radio" -I"/Users/makiah/Desktop/Karman/karman-workspace/karman-application/inc/sensors" -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall -MMD -MP -MF"src/tasks/appMain.d" -MT"src/tasks/appMain.o"  -o"src/tasks/appMain.o" "../src/tasks/appMain.c"
+Finished building: "../src/tasks/appMain.c"
+ 
+Building file: "../src/appInit.c"
+Invoking: GNU Compiler
+"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/arm-none-eabi-gcc" -c -mcpu=cortex-m4 -march=armv7e-m -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DDeviceFamily_MSP432P401x -D__MSP432P401R__ -I"/Users/makiah/Desktop/Karman/karman-workspace/karman-application" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/third_party/CMSIS/Include" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/gcc" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/include" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/portable/GCC/ARM_CM4F" -I"/Users/makiah/Desktop/Karman/karman-workspace/freertos_builds_MSP_EXP432P401R_release_gcc" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include/newlib-nano" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -I"/Users/makiah/Desktop/Karman/karman-workspace/karman-application/inc" -I"/Users/makiah/Desktop/Karman/karman-workspace/karman-application/inc/common" -I"/Users/makiah/Desktop/Karman/karman-workspace/karman-application/inc/flight" -I"/Users/makiah/Desktop/Karman/karman-workspace/karman-application/inc/pyro" -I"/Users/makiah/Desktop/Karman/karman-workspace/karman-application/inc/radio" -I"/Users/makiah/Desktop/Karman/karman-workspace/karman-application/inc/sensors" -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall -MMD -MP -MF"src/appInit.d" -MT"src/appInit.o"  -o"src/appInit.o" "../src/appInit.c"
+Finished building: "../src/appInit.c"
+ 
+Building file: "../src/tasks/sensorTask.c"
+Invoking: GNU Compiler
+"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/arm-none-eabi-gcc" -c -mcpu=cortex-m4 -march=armv7e-m -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DDeviceFamily_MSP432P401x -D__MSP432P401R__ -I"/Users/makiah/Desktop/Karman/karman-workspace/karman-application" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/third_party/CMSIS/Include" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/gcc" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/include" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/portable/GCC/ARM_CM4F" -I"/Users/makiah/Desktop/Karman/karman-workspace/freertos_builds_MSP_EXP432P401R_release_gcc" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include/newlib-nano" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -I"/Users/makiah/Desktop/Karman/karman-workspace/karman-application/inc" -I"/Users/makiah/Desktop/Karman/karman-workspace/karman-application/inc/common" -I"/Users/makiah/Desktop/Karman/karman-workspace/karman-application/inc/flight" -I"/Users/makiah/Desktop/Karman/karman-workspace/karman-application/inc/pyro" -I"/Users/makiah/Desktop/Karman/karman-workspace/karman-application/inc/radio" -I"/Users/makiah/Desktop/Karman/karman-workspace/karman-application/inc/sensors" -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall -MMD -MP -MF"src/tasks/sensorTask.d" -MT"src/tasks/sensorTask.o"  -o"src/tasks/sensorTask.o" "../src/tasks/sensorTask.c"
+Finished building: "../src/tasks/sensorTask.c"
+ 
+Building file: "../src/tasks/IMUTask.cpp"
+Invoking: GNU Compiler
+"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/arm-none-eabi-gcc" -c -mcpu=cortex-m4 -march=armv7e-m -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DDeviceFamily_MSP432P401x -D__MSP432P401R__ -I"/Users/makiah/Desktop/Karman/karman-workspace/karman-application" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/third_party/CMSIS/Include" -I"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source/ti/posix/gcc" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/include" -I"/Users/makiah/FreeRTOSv10.0.0/FreeRTOS/Source/portable/GCC/ARM_CM4F" -I"/Users/makiah/Desktop/Karman/karman-workspace/freertos_builds_MSP_EXP432P401R_release_gcc" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include/newlib-nano" -I"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/arm-none-eabi/include" -I"/Users/makiah/Desktop/Karman/karman-workspace/karman-application/inc" -I"/Users/makiah/Desktop/Karman/karman-workspace/karman-application/inc/common" -I"/Users/makiah/Desktop/Karman/karman-workspace/karman-application/inc/flight" -I"/Users/makiah/Desktop/Karman/karman-workspace/karman-application/inc/pyro" -I"/Users/makiah/Desktop/Karman/karman-workspace/karman-application/inc/radio" -I"/Users/makiah/Desktop/Karman/karman-workspace/karman-application/inc/sensors" -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall -MMD -MP -MF"src/tasks/IMUTask.d" -MT"src/tasks/IMUTask.o"  -o"src/tasks/IMUTask.o" "../src/tasks/IMUTask.cpp"
+Finished building: "../src/tasks/IMUTask.cpp"
+ 
+Building target: "karman-application.out"
+Invoking: GNU Linker
+"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/arm-none-eabi-gcc" -DDeviceFamily_MSP432P401x -D__MSP432P401R__ -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall -march=armv7e-m -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -Wl,-Map,"karman-application.map" -nostartfiles -static -Wl,--gc-sections -L"/Users/makiah/ti/simplelink_msp432p4_sdk_1_60_00_12/source" -L"/Users/makiah/Desktop/Karman/karman-workspace/freertos_builds_MSP_EXP432P401R_release_gcc/Debug" -march=armv7e-m -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 --specs=nano.specs -o"karman-application.out" "./src/appGlobals.o" "./src/appInit.o" "./src/main_freertos.o" "./src/board/MSP_EXP432P401R.o" "./src/drivers/Adafruit_BNO055.o" "./src/drivers/ms5607-02ba03.o" "./src/tasks/IMUTask.o" "./src/tasks/appMain.o" "./src/tasks/sensorTask.o" "./src/utils/debug_printf.o" "./src/utils/timeUtils.o" -Wl,-T"../MSP_EXP432P401R_FREERTOS.lds"  -Wl,--start-group -lstdc++_nano -lc_nano -l":ti/display/lib/display.am4fg" -l":ti/drivers/lib/drivers_msp432p401x.am4fg" -l":third_party/fatfs/lib/fatfs.am4fg" -l:libfreertos_builds_MSP_EXP432P401R_release_gcc.a -l":ti/devices/msp432p4xx/driverlib/gcc/msp432p4xx_driverlib.a" -lgcc -lm -lnosys -Wl,--end-group 
+Finished building target: "karman-application.out"
+ 
+
+**** Build Finished ****

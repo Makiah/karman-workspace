@@ -1,0 +1,13 @@
+
+**** Build of configuration Debug for project freertos_builds_MSP_EXP432P401R_release_gcc ****
+
+/Users/makiah/ti/ccsv7/utils/bin/gmake -k -j 7 all -O 
+ 
+Building target: "libfreertos_builds_MSP_EXP432P401R_release_gcc.a"
+Invoking: GNU Librarian
+"/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/arm-none-eabi-ar" -r "libfreertos_builds_MSP_EXP432P401R_release_gcc.a" "./dpl/ClockP_freertos.o" "./dpl/DebugP_freertos.o" "./dpl/HwiPMSP432_freertos.o" "./dpl/MutexP_freertos.o" "./dpl/PowerMSP432_freertos.o" "./dpl/SemaphoreP_freertos.o" "./dpl/SystemP_freertos.o" "./freertos/croutine.o" "./freertos/event_groups.o" "./freertos/heap_4.o" "./freertos/list.o" "./freertos/queue.o" "./freertos/tasks.o" "./freertos/timers.o" "./freertos/portable/GCC/ARM_CM4F/port.o" "./freertos/startup/startup_msp432_gcc.o" "./posix/clock.o" "./posix/memory.o" "./posix/mqueue.o" "./posix/pthread.o" "./posix/pthread_barrier.o" "./posix/pthread_cond.o" "./posix/pthread_mutex.o" "./posix/pthread_rwlock.o" "./posix/sched.o" "./posix/semaphore.o" "./posix/sleep.o" "./posix/timer.o" 
+/Users/makiah/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/arm-none-eabi-ar: creating libfreertos_builds_MSP_EXP432P401R_release_gcc.a
+Finished building target: "libfreertos_builds_MSP_EXP432P401R_release_gcc.a"
+ 
+
+**** Build Finished ****
