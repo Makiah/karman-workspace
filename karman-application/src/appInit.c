@@ -64,9 +64,23 @@
 #include "sensorTask.h"
 #include "IMUTask.h"
 
+/**
+ * Ensures that the mutex is successfully initialized or loops indefinitely.
+ * @parameter mutex the mutex which is being checked.
+ */
+void blockingMutexInit(pthread_mutex_t* mutex)
+{
+    /* no pthread_mutexattr_t needed because we don't need a recursive mutex on the display */
+    int ret = pthread_mutex_init(mutex, NULL);
+    if (ret != 0)
+    {
+        /* pthread_mutex_init() failed */
+        while(1);
+    }
+}
+
 void appInit(void)
 {
-    int ret = 0;
     /* Period and duty in microseconds */
     Timer_Handle timer0;
     Timer_Params params;
@@ -85,13 +99,9 @@ void appInit(void)
         while(1);
     }
 
-    /* no pthread_mutexattr_t needed because we don't need a recursive mutex on the display */
-    ret = pthread_mutex_init(&gDisplayMuxtex, NULL);
-    if (ret != 0)
-    {
-        /* pthread_mutex_init() failed */
-        while(1);
-    }
+    // Init both mutex values (these are thread-safe variables accessible from multiple tasks).
+    blockingMutexInit(&gDisplayMuxtex);
+    blockingMutexInit(&gSensorDataMutex);
 
     /** PIN CONFIGURATION **/
 
@@ -136,5 +146,3 @@ void timerCallback(Timer_Handle myHandle)
 {
     GPIO_toggle(Board_GPIO_LED0);
 }
-
-

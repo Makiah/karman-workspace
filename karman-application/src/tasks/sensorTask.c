@@ -1,7 +1,7 @@
 /**
  * @file SensorTask.c
  *
- * @brief Sensor Task Function and Intialization
+ * @brief Altimeter Task Function and Intialization
  *
  * Created: 12/1/2016 7:19:19 PM
  *  Author: Andrew Kaster
@@ -10,10 +10,9 @@
 #include "sensorTask.h"
 
 #include "ms5607-02ba03.h"
-//#include "BMX055Mag.h"
-//#include "BMX005Gyro.h"
 
 #include "sensorDefs.h"
+#include "appDefs.h"
 #include "Board.h"
 #include "debug_printf.h"
 
@@ -24,12 +23,8 @@
 #include <FreeRTOS.h>
 #include <task.h>
 
-/** Contains all current sensor values for use in ... TBD. Processing. */
-sensor_data_t gCurrSensorValues;
-
 SPI_Handle sensorSPIHandle;
 pthread_mutex_t sensorSPIMutex;
-
 
 static volatile uint32_t current_CS;
 
@@ -44,9 +39,6 @@ static void sensorSPICallbackFunction (SPI_Handle handle,
  */
 void init_sensor_task(void)
 {
-    int ret = 0;
-
-
     SPI_init();
     /* Initialize SPI interface*/
     SPI_Params slaveSpiParams;
@@ -55,17 +47,16 @@ void init_sensor_task(void)
     slaveSpiParams.transferMode = SPI_MODE_CALLBACK;
     slaveSpiParams.transferCallbackFxn = sensorSPICallbackFunction;
 
+    // Init SPI handle
     sensorSPIHandle = SPI_open(Board_SPI0, &slaveSpiParams);
-
     if(sensorSPIHandle == NULL)
     {
         while(1); // Sensor SPI Handle failed
     }
-
     debug_printf("Sensor SPI Opened");
 
     /* no pthread_mutexattr_t needed because we don't need a recursive mutex on the display */
-    ret = pthread_mutex_init(&sensorSPIMutex, NULL);
+    int ret = pthread_mutex_init(&sensorSPIMutex, NULL);
     if (ret != 0)
     {
         /* pthread_mutex_init() failed */
@@ -75,13 +66,6 @@ void init_sensor_task(void)
     /* run initialization for all sensors */
     /* altimeter/pressure */
     ms5607_02ba03_init(&sensorSPIHandle);
-#if 0
-    /* magnetometer */
-    bmx055_mag_init(&sensorSPIHandle);
-
-    /* gyro */
-    bmx500Gyro_init(&sensorSPIHandle);
-#endif
 }
 
 /**
@@ -97,7 +81,7 @@ void *sensor_task_func(void *arg0)
     /* Initialize task. Must be done here to allow for sleeps in initialization code */
     init_sensor_task();
 
-    debug_printf("Sensor task initalized");
+    debug_printf("Sensor task initialized");
 
     for(;;)
     {
@@ -109,39 +93,9 @@ void *sensor_task_func(void *arg0)
         if (curr_status == SENSOR_COMPLETE)
         {
             /* Do fancy things with current temp/pressure data */
-            ms5607_02ba03_get_data(&(gCurrSensorValues.altimeter));
-
-            debug_printf("Pressure %d", gCurrSensorValues.altimeter.pressure);
-            debug_printf("Temp: %d", gCurrSensorValues.altimeter.temp);
+            // Note that this is passing the sensor data STRUCT and then populating it, not the sensor itself.
+            ms5607_02ba03_get_data(&(gSensorData.altimeter));
         }
-
-#if 0
-        // TODO: mak Apply this stuff to the new struct: gyro_state_machine doesn't currently exist
-        /* make this fit the new template scheme */
-        curr_status = bmx055_mag_run();
-
-        if(curr_status == SENSOR_COMPLETE)
-        {
-            /* do stuff with mag data */
-            bmx055_mag_get_data(&(gCurrSensorValues.magnetometer));
-        }
-
-        curr_status = gyro_state_machine();
-
-        if(curr_status == SENSOR_COMPLETE)
-        {
-            gyro_get_data(&(gCurrSensorValues.gyro));
-        }
-#endif
-        /* ----TEMPLATE----
-         * curr_status = <foo>_run();
-         * if (curr_status == SENSOR_COMPLETE)
-         * {
-         *    Do fancy things with current sensor's data
-         *    <foo>_get_data(&(gCurrSensorValues.<foo_type>))
-         * }
-         *
-         */
 
         vTaskDelayUntil( &xLastWaketime, xFrequency );
     } /* infinite loop */

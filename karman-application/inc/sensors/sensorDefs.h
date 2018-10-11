@@ -15,8 +15,6 @@
 #define SENSORDEFS_H_
 
 #include "ms5607-02ba03.h"
-//#include "BMX055Mag.h"
-//#include "BMX005Gyro.h"
 #include "Board.h"
 
 #include <ti/drivers/SPI.h>
@@ -29,16 +27,29 @@
 #define CHIP_SELECT_LOW (0)
 #define CHIP_SELECT_HIGH (1)
 
+extern SPI_Handle sensorSPIHandle;
+extern pthread_mutex_t sensorSPIMutex;
+
+typedef struct
+{
+    int32_t x;
+    int32_t y;
+    int32_t z;
+} c_vector;
+
+typedef struct
+{
+    c_vector gyroscope;
+    c_vector magnetometer;
+    c_vector accelerometer;
+} imu_sensor_data_t;
+
 /** contains data for every sensor */
 typedef struct
 {
     ms5607_02ba03_data_t altimeter; /**< Temp and pressure */
-    //adafruit_bno055_offsets_t bno055; /**< Gyro and Magnetometer data */
+    imu_sensor_data_t adafruitData;
     // needs to include gyro vals, accel vals, barometer vals
 } sensor_data_t;
-
-extern SPI_Handle sensorSPIHandle;
-extern pthread_mutex_t sensorSPIMutex;
-
 
 #endif /* SENSORDEFS_H_ */

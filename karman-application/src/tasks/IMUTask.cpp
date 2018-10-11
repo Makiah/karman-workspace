@@ -54,7 +54,6 @@ void *IMUTask(void *arg0)
     if(!init_imu_task())
         while(1);
 
-
     for(;;)
     {
         // Possible vector values can be:
@@ -74,9 +73,8 @@ void *IMUTask(void *arg0)
 
         debug_printf(const_cast<char *>("CALIBRATION: Sys=%d Gyro=%d Accel=%d Mag=%d"), system, gyro, accel, mag);
 
+        // Refresh rate
         usleep(100000);
     }
-
-
 }
 
