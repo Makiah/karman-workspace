@@ -10,6 +10,7 @@
 #include <stdint.h>
 #include "Adafruit_BNO055.h"
 
+#include "appDefs.h"
 #include "sensorDefs.h"
 #include "IMUTask.h"
 #include "debug_printf.h"
@@ -45,9 +46,13 @@ bool init_imu_task(void)
     }
 
     return ret;
-
 }
 
+c_vector constructCVectorFrom(imu::Vector<3> cppVector)
+{
+    c_vector newVector = { .x = (int32_t) (cppVector.x()), .y = (int32_t)(cppVector.y()), .z = (int32_t)(cppVector.z()) };
+    return newVector;
+}
 
 void *IMUTask(void *arg0)
 {
@@ -63,9 +68,11 @@ void *IMUTask(void *arg0)
         // - VECTOR_EULER         - degrees
         // - VECTOR_LINEARACCEL   - m/s^2
         // - VECTOR_GRAVITY       - m/s^2
-        imu::Vector<3> euler = bno.getVector(Adafruit_BNO055::VECTOR_EULER);
+        gSensorData.adafruitData.accelerometer = constructCVectorFrom(bno.getVector(Adafruit_BNO055::VECTOR_EULER));
+        gSensorData.adafruitData.gyroscope = constructCVectorFrom(bno.getVector(Adafruit_BNO055::VECTOR_GYROSCOPE));
+        gSensorData.adafruitData.magnetometer = constructCVectorFrom(bno.getVector(Adafruit_BNO055::VECTOR_MAGNETOMETER));
 
-        debug_printf(const_cast<char *>("X: %f Y: %f Z: %f"), euler.x(), euler.y(), euler.z());
+        sensor_data_t dup = gSensorData;
 
         /* Display calibration status for each sensor. */
         uint8_t system, gyro, accel, mag = 0;

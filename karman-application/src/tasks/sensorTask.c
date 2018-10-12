@@ -95,6 +95,8 @@ void *sensor_task_func(void *arg0)
             /* Do fancy things with current temp/pressure data */
             // Note that this is passing the sensor data STRUCT and then populating it, not the sensor itself.
             ms5607_02ba03_get_data(&(gSensorData.altimeter));
+
+            sensor_data_t dup = gSensorData;
         }
 
         vTaskDelayUntil( &xLastWaketime, xFrequency );
