@@ -97,6 +97,7 @@ int main(void)
         while (1);
     }
 
+
     /** CREATE MAIN THREAD **/
 
     /* MainThread has priority 2 (1 = LOW, MAX = 10) */
