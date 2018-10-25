@@ -17,14 +17,7 @@
   MIT license, all text above must be included in any redistribution
  ***************************************************************************/
 
-#include <math.h>
-#include <limits.h>
-#include <ti/drivers/I2C.h>
-
 #include "Adafruit_BNO055.h"
-
-#include <unistd.h>
-#include <time.h>
 
 static inline void delay(unsigned long ms)
 {

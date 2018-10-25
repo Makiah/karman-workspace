@@ -6,16 +6,18 @@
  */
 
 
-#include <ti/drivers/I2C.h>
-#include <stdint.h>
+#include "IMUTask.h"
+
 #include "Adafruit_BNO055.h"
+
+#include "debug_printf.h"
+#include <unistd.h>
+
+#include <stdint.h>
+#include <ti/drivers/I2C.h>
 
 #include "appDefs.h"
 #include "sensorDefs.h"
-#include "IMUTask.h"
-#include "debug_printf.h"
-
-#include <unistd.h>
 
 I2C_Handle imuI2CHandle;
 Adafruit_BNO055 bno;
@@ -45,6 +47,13 @@ bool init_imu_task(void)
         }
     }
 
+    int mutexInit = pthread_mutex_init(&imuTaskDataMutex, NULL);
+    if (mutexInit != 0)
+    {
+        /* pthread_mutex_init() failed */
+        while(1);
+    }
+
     return ret;
 }
 
@@ -68,11 +77,20 @@ void *IMUTask(void *arg0)
         // - VECTOR_EULER         - degrees
         // - VECTOR_LINEARACCEL   - m/s^2
         // - VECTOR_GRAVITY       - m/s^2
-        gSensorData.adafruitData.accelerometer = constructCVectorFrom(bno.getVector(Adafruit_BNO055::VECTOR_EULER));
-        gSensorData.adafruitData.gyroscope = constructCVectorFrom(bno.getVector(Adafruit_BNO055::VECTOR_GYROSCOPE));
-        gSensorData.adafruitData.magnetometer = constructCVectorFrom(bno.getVector(Adafruit_BNO055::VECTOR_MAGNETOMETER));
 
-        sensor_data_t dup = gSensorData;
+        // Already being used by actionTask if it can't be discovered.
+        int mutexLockResult = pthread_mutex_trylock(&imuTaskDataMutex);
+        if (mutexLockResult != 0)
+        {
+            usleep(10000);
+            continue;
+        }
+
+        imuTaskData.accelerometer = constructCVectorFrom(bno.getVector(Adafruit_BNO055::VECTOR_EULER));
+        imuTaskData.gyroscope = constructCVectorFrom(bno.getVector(Adafruit_BNO055::VECTOR_GYROSCOPE));
+        imuTaskData.magnetometer = constructCVectorFrom(bno.getVector(Adafruit_BNO055::VECTOR_MAGNETOMETER));
+
+        pthread_mutex_unlock(&imuTaskDataMutex);
 
         /* Display calibration status for each sensor. */
         uint8_t system, gyro, accel, mag = 0;
@@ -81,7 +99,7 @@ void *IMUTask(void *arg0)
         debug_printf(const_cast<char *>("CALIBRATION: Sys=%d Gyro=%d Accel=%d Mag=%d"), system, gyro, accel, mag);
 
         // Refresh rate
-        usleep(100000);
+        usleep(10000);
     }
 }
 

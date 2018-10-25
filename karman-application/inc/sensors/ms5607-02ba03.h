@@ -12,9 +12,16 @@
 #ifndef MS5607_02BA03_H_
 #define MS5607_02BA03_H_
 
-#include "SensorTask.h"
 #include <ti/drivers/SPI.h>
 #include <time.h>
+
+/** Return for all sensor state machines */
+typedef enum
+{
+    SENSOR_WAITING,     /**< In a sleep state */
+    SENSOR_BUSY,        /**< Transaction in progress */
+    SENSOR_COMPLETE,    /**< New data available */
+} sensor_status_t;
 
 /** Holds the current SPI input/output */
 #define ALTIMETER_SPI_BUFF_SIZE (18)

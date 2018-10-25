@@ -13,17 +13,31 @@
 
 #include <ti/drivers/SPI.h>
 
-/** Return for all sensor state machines */
-typedef enum
-{
-    SENSOR_WAITING,     /**< In a sleep state */
-    SENSOR_BUSY,        /**< Transaction in progress */
-    SENSOR_COMPLETE,    /**< New data available */
-} sensor_status_t;
+#include "ms5607-02ba03.h"
 
-void *sensor_task_func(void* arg0);
+#include "sensorDefs.h"
+#include "appDefs.h"
+#include "Board.h"
+#include "debug_printf.h"
 
+#include <ti/drivers/SPI.h>
+#include <pthread.h>
+#include <errno.h>
+
+#include <FreeRTOS.h>
+#include <task.h>
+
+/**
+ * These below variables are the only thing sensorTask.c is put in charge of updating.
+ */
+pthread_mutex_t sensorTaskDataMutex;
+ms5607_02ba03_data_t sensorTaskData;
+
+/**
+ * These methods update the sensor task data struct and are called by FreeRTOS
+ */
 void init_sensor_task(void);
+void *sensor_task_func(void* arg0);
 
 bool sensor_spi_transfer(SPI_Transaction *transaction, uint32_t cs_pin);
 

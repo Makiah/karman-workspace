@@ -23,6 +23,12 @@
 #include "Adafruit_Sensor.h"
 #include "imumaths.h"
 
+#include <unistd.h>
+#include <time.h>
+
+#include <math.h>
+#include <limits.h>
+
 #include <ti/drivers/I2C.h>
 
 #define BNO055_ADDRESS_A (0x28)

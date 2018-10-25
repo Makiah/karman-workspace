@@ -18,10 +18,9 @@ void debug_printf(char* fmt, ...)
     va_list va;
     va_start(va, fmt);
 
+    // Lock the mutex and print to the display.
     pthread_mutex_lock(&gDisplayMuxtex);
-
     gTheDisplay->fxnTablePtr->vprintfFxn(gTheDisplay, 0, 0, fmt, va);
-
     pthread_mutex_unlock(&gDisplayMuxtex);
 
     va_end(va);

@@ -101,7 +101,6 @@ void appInit(void)
 
     // Init both mutex values (these are thread-safe variables accessible from multiple tasks).
     blockingMutexInit(&gDisplayMuxtex);
-    blockingMutexInit(&gSensorDataMutex);
 
     /** PIN CONFIGURATION **/
 

@@ -9,20 +9,6 @@
 
 #include "sensorTask.h"
 
-#include "ms5607-02ba03.h"
-
-#include "sensorDefs.h"
-#include "appDefs.h"
-#include "Board.h"
-#include "debug_printf.h"
-
-#include <ti/drivers/SPI.h>
-#include <pthread.h>
-#include <errno.h>
-
-#include <FreeRTOS.h>
-#include <task.h>
-
 SPI_Handle sensorSPIHandle;
 pthread_mutex_t sensorSPIMutex;
 
@@ -35,7 +21,7 @@ static void sensorSPICallbackFunction (SPI_Handle handle,
 /**
  * @brief Initialize all things the sensor task needs
 
- * Intialize all sensor drivers
+ * Initialize all sensor drivers
  */
 void init_sensor_task(void)
 {
@@ -57,6 +43,13 @@ void init_sensor_task(void)
 
     /* no pthread_mutexattr_t needed because we don't need a recursive mutex on the display */
     int ret = pthread_mutex_init(&sensorSPIMutex, NULL);
+    if (ret != 0)
+    {
+        /* pthread_mutex_init() failed */
+        while(1);
+    }
+
+    ret = pthread_mutex_init(&sensorTaskDataMutex, NULL);
     if (ret != 0)
     {
         /* pthread_mutex_init() failed */
@@ -88,16 +81,23 @@ void *sensor_task_func(void *arg0)
         TickType_t xLastWaketime = xTaskGetTickCount();
         TickType_t xFrequency = portTICK_PERIOD_MS * 100;
 
+        int mutexRet = pthread_mutex_trylock(&sensorTaskDataMutex);
+        if (mutexRet != 0) // mutex lock worked
+        {
+            vTaskDelayUntil( &xLastWaketime, xFrequency );
+            continue; // skip this cycle because couldn't unlock mutex.
+        }
+
         curr_status = ms5607_02ba03_run();
 
         if (curr_status == SENSOR_COMPLETE)
         {
             /* Do fancy things with current temp/pressure data */
             // Note that this is passing the sensor data STRUCT and then populating it, not the sensor itself.
-            ms5607_02ba03_get_data(&(gSensorData.altimeter));
-
-            sensor_data_t dup = gSensorData;
+            ms5607_02ba03_get_data(&sensorTaskData);
         }
+
+        pthread_mutex_unlock(&sensorTaskDataMutex);
 
         vTaskDelayUntil( &xLastWaketime, xFrequency );
     } /* infinite loop */

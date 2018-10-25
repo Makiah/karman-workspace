@@ -12,5 +12,3 @@
 
 Display_Handle gTheDisplay;
 pthread_mutex_t gDisplayMuxtex;
-sensor_data_t gSensorData;
-pthread_mutex_t gSensorDataMutex;
