@@ -42,7 +42,7 @@ bool init_imu_task(void)
         if(ret)
         {
             usleep(1000000);
-            debug_printf(const_cast<char *>("temperature: %d C"), bno.getTemp());
+            //debug_printf(const_cast<char *>("temperature: %d C"), bno.getTemp());
             bno.setExtCrystalUse(true);
         }
     }
@@ -82,13 +82,13 @@ void *IMUTask(void *arg0)
         int mutexLockResult = pthread_mutex_trylock(&imuTaskDataMutex);
         if (mutexLockResult != 0)
         {
-            usleep(10000);
+            usleep(1000000);
             continue;
         }
 
-        imuTaskData.accelerometer = constructCVectorFrom(bno.getVector(Adafruit_BNO055::VECTOR_EULER));
-        imuTaskData.gyroscope = constructCVectorFrom(bno.getVector(Adafruit_BNO055::VECTOR_GYROSCOPE));
+        imuTaskData.gyroscope = constructCVectorFrom(bno.getVector(Adafruit_BNO055::VECTOR_EULER));
         imuTaskData.magnetometer = constructCVectorFrom(bno.getVector(Adafruit_BNO055::VECTOR_MAGNETOMETER));
+        imuTaskData.accelerometer = constructCVectorFrom(bno.getVector(Adafruit_BNO055::VECTOR_ACCELEROMETER));
 
         pthread_mutex_unlock(&imuTaskDataMutex);
 
@@ -96,10 +96,10 @@ void *IMUTask(void *arg0)
         uint8_t system, gyro, accel, mag = 0;
         bno.getCalibration(&system, &gyro, &accel, &mag);
 
-        debug_printf(const_cast<char *>("CALIBRATION: Sys=%d Gyro=%d Accel=%d Mag=%d"), system, gyro, accel, mag);
+        //debug_printf(const_cast<char *>("CALIBRATION: Sys=%d Gyro=%d Accel=%d Mag=%d"), system, gyro, accel, mag);
 
         // Refresh rate
-        usleep(10000);
+        usleep(1000000);
     }
 }
 

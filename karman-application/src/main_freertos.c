@@ -57,19 +57,19 @@ extern void *mainThread(void *arg0);
 
 /* Stack size in bytes */
 #define THREADSTACKSIZE   1024
-pthread_t           MainThreadHandle;
-pthread_t           SensorTaskHandle;
-pthread_t           IMUTaskHandle;
+pthread_t MainThreadHandle;
+pthread_t SensorTaskHandle;
+pthread_t IMUTaskHandle;
 
 /*
  *  ======== main ========
  */
 int main(void)
 {
-    pthread_attr_t      attrs;
-    struct sched_param  priParam;
-    int                 retc;
-    int                 detachState;
+    pthread_attr_t attrs;
+    struct sched_param priParam;
+    int retc;
+    int detachState;
 
     /* initialize the system locks */
 #ifdef __ICCARM__
@@ -86,17 +86,20 @@ int main(void)
 
     detachState = PTHREAD_CREATE_DETACHED;
     retc = pthread_attr_setdetachstate(&attrs, detachState);
-    if (retc != 0) {
+    if (retc != 0)
+    {
         /* pthread_attr_setdetachstate() failed */
-        while (1);
+        while (1)
+            ;
     }
 
     retc |= pthread_attr_setstacksize(&attrs, THREADSTACKSIZE);
-    if (retc != 0) {
+    if (retc != 0)
+    {
         /* pthread_attr_setstacksize() failed */
-        while (1);
+        while (1)
+            ;
     }
-
 
     /** CREATE MAIN THREAD **/
 
@@ -105,9 +108,11 @@ int main(void)
     pthread_attr_setschedparam(&attrs, &priParam);
 
     retc = pthread_create(&MainThreadHandle, &attrs, mainThread, NULL);
-    if (retc != 0) {
+    if (retc != 0)
+    {
         /* pthread_create() failed */
-        while (1);
+        while (1)
+            ;
     }
 
     /** CREATE SENSOR TASK — This is where barometer data is polled **/
@@ -118,9 +123,11 @@ int main(void)
     pthread_attr_setschedparam(&attrs, &priParam);
 
     retc = pthread_create(&SensorTaskHandle, &attrs, sensor_task_func, NULL);
-    if (retc != 0) {
+    if (retc != 0)
+    {
         /* pthread_create() failed */
-        while (1);
+        while (1)
+            ;
     }
 
     /** CREATE IMU TASK — This is where accelerometer/magnetometer data is polled **/
@@ -131,9 +138,11 @@ int main(void)
     pthread_attr_setschedparam(&attrs, &priParam);
 
     retc = pthread_create(&IMUTaskHandle, &attrs, IMUTask, NULL);
-    if (retc != 0) {
+    if (retc != 0)
+    {
         /* pthread_create() failed */
-        while (1);
+        while (1)
+            ;
     }
 
     /* Start the FreeRTOS scheduler */
@@ -154,7 +163,7 @@ int main(void)
 void vApplicationMallocFailedHook()
 {
     /* Handle Memory Allocation Errors */
-    while(1)
+    while (1)
     {
     }
 }
@@ -171,7 +180,7 @@ void vApplicationMallocFailedHook()
 void vApplicationStackOverflowHook(TaskHandle_t pxTask, char *pcTaskName)
 {
     //Handle FreeRTOS Stack Overflow
-    while(1)
+    while (1)
     {
     }
 }

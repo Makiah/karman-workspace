@@ -39,7 +39,7 @@ void init_sensor_task(void)
     {
         while(1); // Sensor SPI Handle failed
     }
-    debug_printf("Sensor SPI Opened");
+    //debug_printf("Sensor SPI Opened");
 
     /* no pthread_mutexattr_t needed because we don't need a recursive mutex on the display */
     int ret = pthread_mutex_init(&sensorSPIMutex, NULL);
